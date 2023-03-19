@@ -149,7 +149,7 @@ PHP is a widely used server-side scripting language that has both advantages and
 
 <details><summary>1.Open-Source</summary>
 
-PHP is an open-source language, which means that it is free to use and can be modified by anyone. This has led to a large and active community of developers who contribute to its development and support.
+<br> PHP is an open-source language, which means that it is free to use and can be modified by anyone. This has led to a large and active community of developers who contribute to its development and support.
 
 </details>
 
