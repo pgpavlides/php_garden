@@ -155,25 +155,25 @@ PHP is a widely used server-side scripting language that has both advantages and
 
 <details><summary>2.Easy to Learn</summary>
 
-PHP is known for its simple syntax and ease of use, making it a popular choice for beginners who want to learn a server-side scripting language.
+<br> PHP is known for its simple syntax and ease of use, making it a popular choice for beginners who want to learn a server-side scripting language.
 
 </details>
 
 <details><summary>3.Widely Supported</summary>
 
-PHP is supported by a variety of platforms and servers, including Apache, IIS, and others, which makes it a versatile language that can be used to build a wide range of websites and applications.
+<br> PHP is supported by a variety of platforms and servers, including Apache, IIS, and others, which makes it a versatile language that can be used to build a wide range of websites and applications.
 
 </details>
 
 <details><summary>4.Large Community</summary>
 
-With millions of websites using PHP, there is a large and active community of developers who can provide support and resources for learning and problem-solving.
+<br> With millions of websites using PHP, there is a large and active community of developers who can provide support and resources for learning and problem-solving.
 
 </details>
 
 <details><summary>5.Integration with Other Technologies</summary>
 
-PHP can be easily integrated with other technologies, such as databases (MySQL, PostgreSQL, etc.), HTML, CSS, and JavaScript, making it a powerful tool for building dynamic and interactive web applications.
+<br> PHP can be easily integrated with other technologies, such as databases (MySQL, PostgreSQL, etc.), HTML, CSS, and JavaScript, making it a powerful tool for building dynamic and interactive web applications.
 
 </details>
 
@@ -181,31 +181,42 @@ PHP can be easily integrated with other technologies, such as databases (MySQL, 
 
 <details><summary>1.Performance</summary>
 
-While PHP has improved in terms of performance in recent years, it is still not as fast as other languages, such as Node.js, which can be a problem for large and complex applications.
+<br> While PHP has improved in terms of performance in recent years, it is still not as fast as other languages, such as Node.js, which can be a problem for large and complex applications.
 
 </details>
 
 <details><summary>2.Security</summary>
 
-PHP has a history of security vulnerabilities, and it is important to keep up-to-date with security patches and follow best practices to prevent hacking and other security breaches.
+<br> PHP has a history of security vulnerabilities, and it is important to keep up-to-date with security patches and follow best practices to prevent hacking and other security breaches.
 
 </details>
 
 <details><summary>3.Limited Mobile Support</summary>
 
-PHP is primarily used for server-side scripting, and it is not well-suited for building mobile applications. Other technologies, such as Swift for iOS or Java for Android, are better suited for mobile development.
+<br> PHP is primarily used for server-side scripting, and it is not well-suited for building mobile applications. Other technologies, such as Swift for iOS or Java for Android, are better suited for mobile development.
 
 </details>
 
 <details><summary>4.Inconsistent Functionality</summary>
 
-Due to its open-source nature, PHP has a lot of inconsistent functionality, and some functions may behave differently on different servers or platforms, which can lead to compatibility issues.
+<br> Due to its open-source nature, PHP has a lot of inconsistent functionality, and some functions may behave differently on different servers or platforms, which can lead to compatibility issues.
 
 </details>
 
 <details><summary>5.Steep Learning Curve</summary>
 
-While PHP is easy to learn for beginners, it can have a steep learning curve for more advanced topics, such as object-oriented programming and security.
+<br> While PHP is easy to learn for beginners, it can have a steep learning curve for more advanced topics, such as object-oriented programming and security.
 
 </details>
+
+### 1.4 Who should read this repo? 🤼
+
+This repository is designed for anyone who is interested in learning PHP, from beginners to more advanced developers. Whether you're just starting out in web development or are looking to expand your skill set, this repository is a valuable resource that will help you gain a deeper understanding of PHP programming. Whether you want to build dynamic and interactive websites, create e-commerce sites, or develop content management systems, this repository will provide you with the knowledge and tools you need to succeed. So if you're ready to learn PHP and become a skilled programmer, this repository is for you!
+
+# 2.Getting Started with PHP 👩‍💻
+
+### 2.1 Installing PHP
+
+
+
 
