@@ -108,31 +108,25 @@ So, put on your gardening gloves, grab your trowel, and join us in the PHP Garde
  - 15.4 [CakePHP]()
 
   16. ###  [Conclusion]()
+  
+  16. ###  [Usefull Links-Resources ]()
 
 
 
+# 1.Introduction 🚩
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Introduction 🚩
-
-### Why PHP?
+### 1.1 Why PHP?
 
 PHP is a popular, open-source web development language, known for its ease of learning, cross-platform compatibility, and rich ecosystem of tools, libraries, and frameworks. With a large, supportive community and extensive documentation, PHP enables developers to build dynamic web applications quickly and efficiently. The language's built-in web features, mature nature, and continuous performance improvements make it a versatile and reliable choice for various web projects. PHP's flexibility in integration with databases, web servers, and other technologies further enhances its appeal for developers.
+
+### 1.2 Brief history of PHP? 📖
+
+PHP (Hypertext Preprocessor) is a server-side scripting language that is widely used for web development. It was created in 1994 by [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf), a Danish-Canadian programmer, as a set of Common Gateway Interface (CGI) scripts to keep track of visitors to his personal website. Over time, Lerdorf extended the language and eventually released it as open-source software, which allowed others to contribute to its development.
+
+In the late 1990s, two developers, Andi Gutmans and Zeev Suraski, rewrote the language's core, creating a more robust and efficient version of PHP. This version, known as PHP 3, was released in 1998 and became very popular among web developers.
+
+Over the years, PHP has continued to evolve and improve, with the release of new versions that added new features and improved performance. The latest version of PHP, PHP 8, was released in November 2020 and includes features such as named arguments, union types, and attributes.
+
+Today, PHP is used by millions of websites and is supported by a large and active community of developers. It is one of the most popular scripting languages for web development and is used to build dynamic and interactive websites, e-commerce sites, content management systems, and more.
 
 
