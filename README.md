@@ -12,6 +12,18 @@ Your journey through the PHP Garden will cover essential aspects of web developm
 So, put on your gardening gloves, grab your trowel, and join us in the PHP Garden as we help you nurture your PHP skills and create flourishing web applications! 🥦
 
 
+# about-the-author ⚗
+
+Hello! My name is George Pavlides. Also known as Broccoli! 🥦
+
+I am the creator of this repository and I am on a mission to share my journey of learning PHP with the world. As a newcomer to the language, I am eager to evolve my skills and gain a deeper understanding of PHP programming. By creating this repository, I hope to help others learn PHP in a fun and creative way, while also documenting my own progress and growth. I invite anyone who is interested to contribute to this project and help make it a comprehensive resource for learning PHP. 
+
+By working together, we can evolve this project and achieve our shared goal of helping others learn the language in a fun and creative way. So let's join forces and make this repository a thriving community of PHP enthusiasts!
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 ## Table of content
 
 1. ### [Introduction]()
@@ -121,12 +133,20 @@ PHP is a popular, open-source web development language, known for its ease of le
 
 ### 1.2 Brief history of PHP? 📖
 
-PHP (Hypertext Preprocessor) is a server-side scripting language that is widely used for web development. It was created in 1994 by [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf), a Danish-Canadian programmer, as a set of Common Gateway Interface (CGI) scripts to keep track of visitors to his personal website. Over time, Lerdorf extended the language and eventually released it as open-source software, which allowed others to contribute to its development.
+PHP (Hypertext Preprocessor) is a server-side scripting language that is widely used for web development. It was created in 1994 by [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf), a Danish-Canadian programmer, as a set of Common Gateway Interface [CGI](https://en.wikipedia.org/wiki/Common_Gateway_Interface) scripts to keep track of visitors to his personal website. Over time, Lerdorf extended the language and eventually released it as open-source software, which allowed others to contribute to its development.
 
-In the late 1990s, two developers, Andi Gutmans and Zeev Suraski, rewrote the language's core, creating a more robust and efficient version of PHP. This version, known as PHP 3, was released in 1998 and became very popular among web developers.
+In the late 1990s, two developers, [Andi Gutmans](https://en.wikipedia.org/wiki/Andi_Gutmans) and [Zeev Suraski](https://en.wikipedia.org/wiki/Zeev_Suraski), rewrote the language's core, creating a more robust and efficient version of PHP. This version, known as PHP 3, was released in 1998 and became very popular among web developers.
 
 Over the years, PHP has continued to evolve and improve, with the release of new versions that added new features and improved performance. The latest version of PHP, PHP 8, was released in November 2020 and includes features such as named arguments, union types, and attributes.
 
 Today, PHP is used by millions of websites and is supported by a large and active community of developers. It is one of the most popular scripting languages for web development and is used to build dynamic and interactive websites, e-commerce sites, content management systems, and more.
 
+### 1.3 Advantages and disadvantages of PHP ✅❌
 
+PHP is a widely used server-side scripting language that has both advantages and disadvantages. It is an open-source language that is easy to learn and widely supported, making it a popular choice for building dynamic and interactive web applications. However, its performance can sometimes be lacking, and it has a history of security vulnerabilities. In this article, we will explore the advantages and disadvantages of PHP in detail.
+
+<details open><summary>TEST</summary>
+
+Works!
+
+</details>
