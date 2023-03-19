@@ -145,7 +145,31 @@ Today, PHP is used by millions of websites and is supported by a large and activ
 
 PHP is a widely used server-side scripting language that has both advantages and disadvantages. It is an open-source language that is easy to learn and widely supported, making it a popular choice for building dynamic and interactive web applications. However, its performance can sometimes be lacking, and it has a history of security vulnerabilities. In this article, we will explore the advantages and disadvantages of PHP in detail.
 
-<details open><summary>TEST</summary>
+<details><summary>1.Open-Source</summary>
+
+Works!
+
+</details>
+
+<details><summary>2.Easy to Learn</summary>
+
+Works!
+
+</details>
+
+<details><summary>3.Widely Supported</summary>
+
+Works!
+
+</details>
+
+<details><summary>4.Large Community</summary>
+
+Works!
+
+</details>
+
+<details><summary>5.Integration with Other Technologies</summary>
 
 Works!
 
