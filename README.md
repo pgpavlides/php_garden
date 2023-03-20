@@ -215,7 +215,13 @@ This repository is designed for anyone who is interested in learning PHP, from b
 
 # 2.Getting Started with PHP 👩‍💻
 
-### 2.1 Installing PHP
+### 2.1 Installing PHP - XAMPP
+
+<p align="center">
+  <img src="https://assets.stickpng.com/images/58482973cef1014c0b5e49fd.png" alt="image-description">
+</p>
+
+
 
 
 
