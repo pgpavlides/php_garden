@@ -234,4 +234,3 @@ This repository is designed for anyone who is interested in learning PHP, from b
   <img src="https://i.ibb.co/XCnxKjD/58482973cef1014c0b5e49fd.png" alt="image-description" height="50px" >
 </p>
 
-
