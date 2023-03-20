@@ -218,7 +218,7 @@ This repository is designed for anyone who is interested in learning PHP, from b
 ### 2.1 Installing PHP - XAMPP
 
 <p align="center">
-  <img src="https://i.ibb.co/XCnxKjD/58482973cef1014c0b5e49fd.png" alt="image-description">
+  <img src="https://i.ibb.co/XCnxKjD/58482973cef1014c0b5e49fd.png" alt="image-description" height="50px" width="50px">
 </p>
 
 
