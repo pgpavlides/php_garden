@@ -27,7 +27,7 @@ By working together, we can evolve this project and achieve our shared goal of h
 ## Table of content
 
 1. ### [Introduction]()
- - 1.1 [Why PHP?]()
+ - 1.1 [Why PHP?](#1.1 Why PHP?)
  - 1.2 [Brief history of PHP]()
  - 1.3 [Advantages and disadvantages]()
  - 1.4 [Who should read this repo?]()
