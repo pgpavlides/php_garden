@@ -235,7 +235,3 @@ This repository is designed for anyone who is interested in learning PHP, from b
 </p>
 
 
-
-
-
-
