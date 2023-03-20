@@ -1,7 +1,20 @@
 
-# php-garden 👨‍🌾
 
+
+<h1 align="center">
+ php-garden 👨‍🌾 
+</h1>
+
+<p align="center">
+<img src="https://i.ibb.co/Wz1tpC0/PHP-GARDEN-THUMBNAIL.png" height="200px">
+</p>
+<p align="center">
 "Welcome to PHP Garden: Cultivating Your PHP Skills for Web Development" 🎉
+</p>
+
+
+
+
 
 PHP Garden is your comprehensive guide to nurturing and growing your PHP skills, designed for beginners and experienced developers alike. In this book, you'll discover the rich ecosystem of PHP, a powerful and popular server-side scripting language that has been at the heart of web development for over two decades.
 
@@ -177,7 +190,7 @@ PHP is a widely used server-side scripting language that has both advantages and
 
 </details>
 
-## Disdvantages ❌
+## Disadvantages ❌
 
 <details><summary>1.Performance</summary>
 
@@ -218,7 +231,7 @@ This repository is designed for anyone who is interested in learning PHP, from b
 ### 2.1 Installing PHP - XAMPP
 
 <p align="center">
-  <img src="https://i.ibb.co/XCnxKjD/58482973cef1014c0b5e49fd.png" alt="image-description" height="50px" width="50px">
+  <img src="https://i.ibb.co/XCnxKjD/58482973cef1014c0b5e49fd.png" alt="image-description" height="50px" >
 </p>
 
 
