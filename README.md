@@ -21,12 +21,6 @@
 </p>
 
 
-
-
-
-
-
-
 PHP Garden is your comprehensive guide to nurturing and growing your PHP skills, designed for beginners and experienced developers alike. In this book, you'll discover the rich ecosystem of PHP, a powerful and popular server-side scripting language that has been at the heart of web development for over two decades.
 
 We'll start by planting the seeds of PHP fundamentals, exploring the syntax, variables, and data types. As your knowledge blossoms, we'll delve into control structures, functions, arrays, and strings to help you cultivate more advanced programming techniques. The book will also guide you through object-oriented programming in PHP, allowing you to create elegant and efficient code.
