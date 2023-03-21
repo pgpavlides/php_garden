@@ -802,7 +802,7 @@ There are many built-in functions in PHP, and the exact list of functions depend
     <tr>
       <th style="width: 10vw;">Name</th>
       <th style="width: 50vw;">Description</th>
-      <th style="width: 40px;">Code Example</th>
+      <th style="width: 40vw;">Code Example</th>
     </tr>
   </thead>
   <tbody>
@@ -918,9 +918,9 @@ echo $newString; // Outputs: The quick brown cat jumps over the lazy dog.
 <table>
   <thead>
     <tr>
-      <th style="width: 150px;">Name</th>
-      <th style="width: 500px;">Description</th>
-      <th style="width: 500px;">Code Example</th>
+      <th style="width: 10vw;">Name</th>
+      <th style="width: 50vw;">Description</th>
+      <th style="width: 40vw;">Code Example</th>
     </tr>
   </thead>
   <tbody>
