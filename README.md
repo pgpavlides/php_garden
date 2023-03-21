@@ -12,6 +12,10 @@
 "Welcome to PHP Garden: Cultivating Your PHP Skills for Web Development" 🎉
 </p>
 
+<p align="center">
+<img src="https://i.ibb.co/tq2gSQC/600px-Divider-small.png" height="200px">
+</p>
+
 
 
 
