@@ -801,7 +801,7 @@ There are many built-in functions in PHP, and the exact list of functions depend
   <thead>
     <tr>
       <th style="width: 150px;">Name</th>
-      <th style="width: 500px;">Description</th>
+      <th style="width: 750px;">Description</th>
       <th style="width: 500px;">Code Example</th>
     </tr>
   </thead>
