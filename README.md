@@ -835,18 +835,111 @@ This list is not exhaustive, and there are many other built-in functions in PHP 
   </thead>
   <tbody>
     <tr>
-      <td>Name 1</td>
-      <td>Description 1</td>
-      <td>Code Example 1</td>
+      <td>strlen</td>
+      <td>Returns the length of a string in terms of the number of characters it contains.</td>
+      <td>
+        <pre>
+$string = "Hello, world!";
+$length = strlen($string);
+echo $length; // Outputs: 13
+        </pre>
+      </td>
     </tr>
     <tr>
-      <td>Name 2</td>
-      <td>Description 2</td>
-      <td>Code Example 2</td>
+      <td>strpos</td>
+      <td>Searches for a specific substring within a given string and returns the position of its first occurrence. If the substring is not found, the function returns false.</td>
+      <td>
+        <pre>
+$string = "I love programming!";
+$substring = "love";
+$position = strpos($string, $substring);
+echo $position; // Outputs: 2
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>substr</td>
+      <td>Extracts a portion of a string starting from a specified position and with a specified length.</td>
+      <td>
+        <pre>
+$string = "Hello, world!";
+$substring = substr($string, 0, 5);
+echo $substring; // Outputs: Hello
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>strtolower</td>
+      <td>Converts all the characters in a string to lowercase.</td>
+      <td>
+        <pre>
+        $string = "ConVert Me To LoWErCaSe";
+$lowercase = strtolower($string);
+echo $lowercase; // Outputs: convert me to lowercase
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>strtoupper</td>
+      <td>Converts all the characters in a string to uppercase.</td>
+      <td>
+        <pre>
+$string = "ConVert Me To UpPErCaSe";
+$uppercase = strtoupper($string);
+echo $uppercase; // Outputs: CONVERT ME TO UPPERCASE
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>trim</td>
+      <td>Removes whitespace characters (spaces, tabs, newlines) from both the beginning and the end of a string.</td>
+      <td>
+        <pre>
+$string = "    Hello, world!    ";
+$trimmed = trim($string);
+echo $trimmed; // Outputs: Hello, world!
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>explode</td>
+      <td>Splits a string into an array of substrings based on a specified delimiter.</td>
+      <td>
+        <pre>
+$string = "apple,orange,banana";
+$delimiter = ",";
+$array = explode($delimiter, $string);
+print_r($array); // Outputs: Array ( [0] => apple [1] => orange [2] => banana )
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>implode</td>
+      <td>Joins an array of strings into a single string, using a specified separator.</td>
+      <td>
+        <pre>
+$array = ["apple", "orange", "banana"];
+$separator = ", ";
+$string = implode($separator, $array);
+echo $string; // Outputs: apple, orange, banana
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>str_replace</td>
+      <td>Finds all occurrences of a specified substring within a given string and replaces them with a different substring.</td>
+      <td>
+        <pre>
+$string = "The quick brown fox jumps over the lazy dog.";
+$search = "fox";
+$replace = "cat";
+$newString = str_replace($search, $replace, $string);
+echo $newString; // Outputs: The quick brown cat jumps over the lazy dog.
+        </pre>
+      </td>
     </tr>
   </tbody>
 </table>
-
 
 
 
