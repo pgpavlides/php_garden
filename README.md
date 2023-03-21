@@ -1064,6 +1064,96 @@ echo $key; // Outputs: b
 
 - **Math functions**: `abs`, `ceil`, `floor`, `round`, `max`, `min`, `rand`
 
+<table>
+  <thead>
+    <tr>
+      <th style="width: 10vw;">Name</th>
+      <th style="width: 50vw;">Description</th>
+      <th style="width: 40vw;">Code Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>abs</code></td>
+      <td>Returns the absolute value of a number.</td>
+      <td>
+        <pre>
+$number = -5;
+$result = abs($number);
+echo $result; // Outputs: 5
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td><code>ceil</code></td>
+      <td>Rounds a number up to the nearest integer.</td>
+      <td>
+        <pre>
+$number = 4.3;
+$result = ceil($number);
+echo $result; // Outputs: 5
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td><code>floor</code></td>
+      <td>Rounds a number down to the nearest integer.</td>
+      <td>
+        <pre>
+$number = 4.7;
+$result = floor($number);
+echo $result; // Outputs: 4
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td><code>round</code></td>
+      <td>Rounds a number to the nearest integer, or to the specified number of decimals.</td>
+      <td>
+        <pre>
+$number = 4.5;
+$result = round($number);
+echo $result; // Outputs: 5
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td><code>max</code></td>
+      <td>Returns the highest value in an array or the highest value of several specified values.</td>
+      <td>
+        <pre>
+$array = [1, 5, 2, 8, 3];
+$result = max($array);
+echo $result; // Outputs: 8
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td><code>min</code></td>
+      <td>Returns the lowest value in an array or the lowest value of several specified values.</td>
+      <td>
+        <pre>
+$array = [1, 5, 2, 8, 3];
+$result = min($array);
+echo $result; // Outputs: 1
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td><code>rand</code></td>
+      <td>Generates a random integer between the specified min and max values, inclusive.</td>
+      <td>
+        <pre>
+$min = 1;
+$max = 100;
+$result = rand($min, $max);
+echo $result; // Outputs a random number between 1 and 100
+        </pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 - **Date and time functions**: `date`, `time`, `mktime`, `strtotime`
 
 - **File system functions**: `fopen`, `fread`, `fwrite`, `fclose`, `file_get_contents`, `file_put_contents`
