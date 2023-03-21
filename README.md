@@ -786,7 +786,7 @@ There are many built-in functions in PHP, and the exact list of functions depend
 
 - **Miscellaneous functions**: `isset`, `empty`, `print_r`, `var_dump`, `unset`, `exit`
 
-This list is not exhaustive, and there are many other built-in functions in PHP that can be used for specific purposes. To see a full list of built-in functions in PHP, you can refer to the official PHP documentation.
+This list is not exhaustive, and there are many other built-in functions in PHP that can be used for specific purposes. To see a full list of built-in functions in PHP, you can refer to the official PHP documentation. https://www.php.net/manual/en/funcref.php
 
 
 
