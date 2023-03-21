@@ -915,6 +915,120 @@ echo $newString; // Outputs: The quick brown cat jumps over the lazy dog.
 
 - **Array functions**: `array_keys`, `array_values`, `array_merge`, `array_slice`, `count`, `sort`, `rsort`, `asort`, `ksort`, `array_search`
 
+<table>
+  <thead>
+    <tr>
+      <th style="width: 150px;">Name</th>
+      <th style="width: 500px;">Description</th>
+      <th style="width: 500px;">Code Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>array_keys</td>
+      <td>Returns all the keys of an array.</td>
+      <td>
+        <pre>
+$array = ["a" => "apple", "b" => "banana", "c" => "cherry"];
+$keys = array_keys($array);
+print_r($keys); // Outputs: Array ( [0] => a [1] => b [2] => c )
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>array_values</td>
+      <td>Returns all the values of an array.</td>
+      <td>
+        <pre>
+$array = ["a" => "apple", "b" => "banana", "c" => "cherry"];
+$values = array_values($array);
+print_r($values); // Outputs: Array ( [0] => apple [1] => banana [2] => cherry )
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>array_merge</td>
+      <td>Merges two or more arrays into one array.</td>
+      <td>
+        <pre>
+$array1 = ["apple", "banana"];
+$array2 = ["cherry", "date"];
+$merged = array_merge($array1, $array2);
+print_r($merged); // Outputs: Array ( [0] => apple [1] => banana [2] => cherry [3] => date )
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>array_slice</td>
+      <td>Extracts a portion of an array with a specified length.</td>
+      <td>
+        <pre>
+$array = ["apple", "banana", "cherry", "date", "fig"];
+$sliced = array_slice($array, 1, 3);
+print_r($sliced); // Outputs: Array ( [0] => banana [1] => cherry [2] => date )
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>count</td>
+      <td>Returns the number of elements in an array.</td>
+      <td>
+        <pre>
+$array = ["apple", "banana", "cherry", "date", "fig"];
+$count = count($array);
+echo $count; // Outputs: 5
+        </pre>
+      </td>
+</tr>
+<tr>
+<td>in_array</td>
+<td>Checks if a value exists in an array.</td>
+<td>
+<pre>
+$array = ["apple", "banana", "cherry", "date", "fig"];
+if (in_array("banana", $array)) {
+echo "Banana is in the array."; // Outputs: Banana is in the array.
+}
+</pre>
+</td>
+</tr>
+<tr>
+<td>array_search</td>
+<td>Searches an array for a given value and returns the first corresponding key if successful.</td>
+<td>
+<pre>
+$array = ["a" => "apple", "b" => "banana", "c" => "cherry"];
+$key = array_search("banana", $array);
+echo $key; // Outputs: b
+</pre>
+</td>
+</tr>
+<tr>
+<td>sort</td>
+<td>Sorts an array in ascending order.</td>
+<td>
+<pre>
+$array = ["apple", "cherry", "banana", "fig", "date"];
+sort($array);
+print_r($array); // Outputs: Array ( [0] => apple [1] => banana [2] => cherry [3] => date [4] => fig )
+</pre>
+</td>
+</tr>
+<tr>
+<td>rsort</td>
+<td>Sorts an array in descending order.</td>
+<td>
+<pre>
+$array = ["apple", "cherry", "banana", "fig", "date"];
+rsort($array);
+print_r($array); // Outputs: Array ( [0] => fig [1] => date [2] => cherry [3] => banana [4] => apple )
+</pre>
+</td>
+</tr>
+
+  </tbody>
+</table>
+
 - **Math functions**: `abs`, `ceil`, `floor`, `round`, `max`, `min`, `rand`
 
 - **Date and time functions**: `date`, `time`, `mktime`, `strtotime`
