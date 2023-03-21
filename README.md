@@ -234,3 +234,65 @@ This repository is designed for anyone who is interested in learning PHP, from b
   <img src="https://i.ibb.co/XCnxKjD/58482973cef1014c0b5e49fd.png" alt="image-description" height="50px" >
 </p>
 
+# 3 Variables and Data Types
+
+### 3.1 Variables
+
+All variables in PHP must be declared with a **leading dollar sign ($)**. For example, a string variable named "message" would be declared as follows:
+
+```php
+$message = "Hello, world!";
+```
+
+
+
+It's important to note that in PHP, variables are **dynamically typed**, which means that the type of a variable can change at runtime based on the value assigned to it.
+
+
+
+- **Scalar variables**: These are variables that can hold a single value, such as an integer, float, string, or boolean.
+
+```php
+$integer = 42;
+$float = 3.14;
+$string = "Hello, world!";
+$boolean = true;
+```
+
+- **Array variables**: These are variables that can hold multiple values, indexed either numerically or associatively.
+
+```php
+$numbers = array(1, 2, 3, 4, 5);
+$associative_array = array("one" => 1, "two" => 2, "three" => 3);
+```
+
+- **Object variables**: These are variables that hold instances of classes, which can contain both data and behavior.
+
+```php
+class Car {
+    public $make;
+    public $model;
+    public $year;
+}
+
+$my_car = new Car();
+$my_car->make = "Toyota";
+$my_car->model = "Camry";
+$my_car->year = 2020;
+```
+
+- **Resource variables**: These are special variables that hold references to resources external to PHP, such as database connections or file handles.
+
+```php
+$file = fopen("example.txt", "r");
+$database = mysqli_connect("localhost", "user", "password", "database");
+```
+
+- **NULL variables**: These are variables that have no value assigned to them.
+```php
+$null_variable = null;
+```
+
+
+
+
