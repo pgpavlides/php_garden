@@ -17,10 +17,6 @@
 </p>
 
 <p align="center">
-<img src="https://i.ibb.co/GH1CYWG/Divider.png" width="100%" > 
-</p>
-
-<p align="center">
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
@@ -157,9 +153,17 @@ By working together, we can evolve this project and achieve our shared goal of h
 
 # 1.Introduction
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
 ### 1.1 Why PHP <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" alt="image-description" height="33px">
 
 PHP is a popular, open-source web development language, known for its ease of learning, cross-platform compatibility, and rich ecosystem of tools, libraries, and frameworks. With a large, supportive community and extensive documentation, PHP enables developers to build dynamic web applications quickly and efficiently. The language's built-in web features, mature nature, and continuous performance improvements make it a versatile and reliable choice for various web projects. PHP's flexibility in integration with databases, web servers, and other technologies further enhances its appeal for developers.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
 ### 1.2 Brief history of PHP? <img src="https://cdn-icons-png.flaticon.com/512/2132/2132336.png" alt="image-description" height="40px" width="40px">
 
@@ -170,6 +174,10 @@ In the late 1990s, two developers, [Andi Gutmans](https://en.wikipedia.org/wiki/
 Over the years, PHP has continued to evolve and improve, with the release of new versions that added new features and improved performance. The latest version of PHP, PHP 8, was released in November 2020 and includes features such as named arguments, union types, and attributes.
 
 Today, PHP is used by millions of websites and is supported by a large and active community of developers. It is one of the most popular scripting languages for web development and is used to build dynamic and interactive websites, e-commerce sites, content management systems, and more.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
 ### 1.3 Advantages and disadvantages of PHP <img src="https://images.vexels.com/media/users/3/214924/isolated/preview/ecde1a47f5afd38bc93e56e39bac5311-shiny-scale-illustration.png" height="70px" width="70px">
 
@@ -238,6 +246,10 @@ PHP is a widely used server-side scripting language that has both advantages and
 <br> While PHP is easy to learn for beginners, it can have a steep learning curve for more advanced topics, such as object-oriented programming and security.
 
 </details>
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
 ### 1.4 Who should read this repo? 
 
