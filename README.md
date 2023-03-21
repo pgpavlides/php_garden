@@ -426,6 +426,10 @@ $d = $c + 0; // $d will be an integer with the value 42
 
 It's important to be mindful of the data types of values when performing type casting, as the results of the conversion may not always be what you expect. For example, when casting a float to an integer, the fractional part of the float will be truncated, not rounded. When casting a string to a boolean, the string "false" (not including quotes) will be cast to false, while all other strings will be cast to true.
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
 ### 3.4 Constants
 
 In PHP, constants are values that cannot be changed after they have been defined. Constants are typically used to represent values that don't change throughout the lifetime of a script, such as mathematical constants, configuration parameters, or error codes.
