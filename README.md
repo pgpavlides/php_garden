@@ -919,8 +919,8 @@ echo $newString; // Outputs: The quick brown cat jumps over the lazy dog.
   <thead>
     <tr>
       <th style="width: 10vw;">Name</th>
-      <th style="width: 50vw;">Description</th>
-      <th style="width: 40vw;">Code Example</th>
+      <th style="width: 65vw;">Description</th>
+      <th style="width: 25vw;">Code Example</th>
     </tr>
   </thead>
   <tbody>
