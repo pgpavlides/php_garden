@@ -758,6 +758,34 @@ Closures are a powerful feature of PHP, and are used extensively in functional p
 
 There are many built-in functions in PHP, and the exact list of functions depends on the version of PHP you are using. Here is a comprehensive but not exhaustive list of some of the most commonly used built-in functions in PHP:
 
+- **String functions**: `strlen`, `strpos`, `substr`, `strtolower`, `strtoupper`, `trim`, `explode`, `implode`, `str_replace`
+
+- **Array functions**: `array_keys`, `array_values`, `array_merge`, `array_slice`, `count`, `sort`, `rsort`, `asort`, `ksort`, `array_search`
+
+- **Math functions**: `abs`, `ceil`, `floor`, `round`, `max`, `min`, `rand`
+
+- **Date and time functions**: `date`, `time`, `mktime`, `strtotime`
+
+- **File system functions**: `fopen`, `fread`, `fwrite`, `fclose`, `file_get_contents`, `file_put_contents`
+
+- **Regular expression functions**: `preg_match`, `preg_replace`, `preg_split`
+
+- **Type casting functions**: `intval`, `floatval`, `strval`, `boolval`
+
+- **Error handling functions**: `trigger_error`, `set_error_handler`, `restore_error_handler`
+
+- **URL functions**: `parse_url`, `urlencode`, `urldecode`
+
+- **JSON functions**: `json_encode`, `json_decode`
+
+- **Database functions**: `mysql_connect`, `mysql_query`, `mysql_fetch_array`, `mysql_close`, `mysqli_connect`, `mysqli_query`, `mysqli_fetch_array`, `mysqli_close`
+
+- **Object-Oriented Programming functions**: `get_class`, `is_a`, `method_exists`, `property_exists`
+
+- **Session functions**: `session_start`, `session_destroy`, `session_unset`, `session_regenerate_id`
+
+- **Miscellaneous functions**: `isset`, `empty`, `print_r`, `var_dump`, `unset`, `exit`
+
 
 
 
