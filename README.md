@@ -293,6 +293,74 @@ $database = mysqli_connect("localhost", "user", "password", "database");
 $null_variable = null;
 ```
 
+### 3.1 Data types
+
+- **Integers**: Represent whole numbers, such as 42 or -123.
+
+```php
+$a = 42;
+$b = -123;
+```
+
+- **Floats**: Represent numbers with decimal places, such as 3.14 or -0.01.
+
+```php
+$c = 3.14;
+$d = -0.01;
+```
+
+- **Strings**: Represent sequences of characters, such as "Hello, world!" or "php".
+```php
+$e = "Hello, world!";
+$f = "php";
+```
+
+
+- **Booleans**: Represent truth values, either true or false.
+
+```php
+$g = true;
+$h = false;
+```
+
+- **Arrays**: Represent ordered collections of values, either indexed by numbers (called numeric arrays) or by strings (called associative arrays).
+
+```php
+$numbers = array(1, 2, 3, 4, 5);
+$associative_array = array("one" => 1, "two" => 2, "three" => 3);
+```
+
+- **Objects**: Represent instances of classes, which can contain both data and behavior.
+
+```php
+class Car {
+    public $make;
+    public $model;
+    public $year;
+}
+
+$my_car = new Car();
+$my_car->make = "Toyota";
+$my_car->model = "Camry";
+$my_car->year = 2020;
+```
+
+- **Resources**: Represent external resources, such as database connections or file handles.
+
+```php
+$file = fopen("example.txt", "r");
+$database = mysqli_connect("localhost", "user", "password", "database");
+```
+
+- **NULL**: Represent the absence of a value.
+
+```php
+$null_variable = null;
+```
+
+
+
+
 
 
 
