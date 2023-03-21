@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="100vh"> 
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="100vh" width="100vw" > 
 </p>
 
 
