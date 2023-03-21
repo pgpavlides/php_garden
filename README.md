@@ -800,9 +800,9 @@ There are many built-in functions in PHP, and the exact list of functions depend
 <table>
   <thead>
     <tr>
-      <th style="width: 150px;">Name</th>
-      <th style="width: 500px;">Description</th>
-      <th style="width: 350px;">Code Example</th>
+      <th style="width: 10vw;">Name</th>
+      <th style="width: 50vw;">Description</th>
+      <th style="width: 40px;">Code Example</th>
     </tr>
   </thead>
   <tbody>
