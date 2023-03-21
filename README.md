@@ -1156,6 +1156,67 @@ echo $result; // Outputs a random number between 1 and 100
 
 - **Date and time functions**: `date`, `time`, `mktime`, `strtotime`
 
+<table>
+  <thead>
+    <tr>
+      <th style="width: 10vw;">Name</th>
+      <th style="width: 50vw;">Description</th>
+      <th style="width: 40vw;">Code Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>date</code></td>
+      <td>Formats a local date and time according to the given format.</td>
+      <td>
+        <pre>
+$format = "Y-m-d H:i:s";
+$current_date = date($format);
+echo $current_date; // Outputs: current date and time, e.g. 2023-03-21 12:34:56
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td><code>time</code></td>
+      <td>Returns the current Unix timestamp.</td>
+      <td>
+        <pre>
+$timestamp = time();
+echo $timestamp; // Outputs: current Unix timestamp, e.g. 1678910496
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td><code>mktime</code></td>
+      <td>Returns the Unix timestamp for a specified date and time.</td>
+      <td>
+        <pre>
+$hour = 14;
+$minute = 30;
+$second = 0;
+$month = 3;
+$day = 21;
+$year = 2023;
+$timestamp = mktime($hour, $minute, $second, $month, $day, $year);
+echo $timestamp; // Outputs: Unix timestamp for 2023-03-21 14:30:00
+</pre>
+</td>
+</tr>
+<tr>
+<td><code>strtotime</code></td>
+<td>Parses an English textual datetime description into a Unix timestamp.</td>
+<td>
+<pre>
+$date_string = "2023-03-21 14:30:00";
+$timestamp = strtotime($date_string);
+echo $timestamp; // Outputs: Unix timestamp for 2023-03-21 14:30:00
+</pre>
+</td>
+</tr>
+
+  </tbody>
+</table>
+
 - **File system functions**: `fopen`, `fread`, `fwrite`, `fclose`, `file_get_contents`, `file_put_contents`
 
 - **Regular expression functions**: `preg_match`, `preg_replace`, `preg_split`
