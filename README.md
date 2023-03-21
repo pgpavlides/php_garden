@@ -827,6 +827,6 @@ This list is not exhaustive, and there are many other built-in functions in PHP 
 
 Name | Description | CodeExample
 ------|-------|-------------|
-strpos|This function searches for a specific substring within a given <br> string and returns the position of its first occurrence.  If the substring is not found, the function returns false.| <p> ``` php $string = "Hello, world!"; $length = strlen($string); echo $length;``` // Outputs: 13 <p>| 
+strpos|This function searches for a specific substring within a given <br> string and returns the position of its first occurrence.  If the substring is not found, the function returns false.| <p> $string = "Hello, world!"; <br> $length = strlen($string); <br> echo $length; // Outputs: 13 <p>| 
 
 
