@@ -274,6 +274,10 @@ This repository is designed for anyone who is interested in learning PHP, from b
 
 # 3 Variables and Data Types
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
 ### 3.1 Variables
 
 All variables in PHP must be declared with a **leading dollar sign ($)**. For example, a string variable named "message" would be declared as follows:
@@ -330,6 +334,10 @@ $database = mysqli_connect("localhost", "user", "password", "database");
 ```php
 $null_variable = null;
 ```
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
 ### 3.2 Data types
 
@@ -395,6 +403,10 @@ $database = mysqli_connect("localhost", "user", "password", "database");
 ```php
 $null_variable = null;
 ```
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
 ### 3.3 Type Casting
 
@@ -476,7 +488,16 @@ It's a good practice to define constants in uppercase letters, to distinguish th
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
 # 4. Control Structures
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
 ### 4.1 Conditionals (if, else, elseif)
 
 In PHP, you can use conditionals to execute different blocks of code based on the value of one or more expressions. The most commonly used conditional statements are **if**, **else**, and **elseif**.
@@ -550,8 +571,13 @@ if ($a > 0) {
 
 It's important to note that only one block of code will be executed for each set of conditions, and the first condition that is true will cause its corresponding code to be executed and any remaining conditions to be skipped.
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
 ### 4.2 Switch Statements
+
+
 
 In PHP, the switch statement provides a convenient way to test a single expression against multiple possible values, and execute a block of code for each matching value. The switch statement is often used as an alternative to a series of if...elseif...else statements, when you need to test for many possible values of a single expression.
 
@@ -602,6 +628,10 @@ It's important to note that the break statement is used to exit the switch state
 
 # 5. Functions
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
 ### 5.1 Defining Functions
 
 In PHP, a function is a block of code that can be executed multiple times, and can accept input in the form of parameters, and return output in the form of a return value. Functions are useful for encapsulating and reusing code, and for organizing and simplifying complex scripts.
@@ -641,6 +671,10 @@ function square($number) {
 
 $result = square(5); // $result will be 25
 ```
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
 ### 5.2 Function Arguments
 
@@ -704,6 +738,10 @@ In this example, the `double` function accepts a single argument `$number`, whic
 
 In summary, **function arguments** provide a way for functions to accept **input**, and are an essential aspect of writing effective and reusable functions in PHP. Understanding how to define and use function arguments is key to writing effective PHP code.
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
 ### 5.3 Return Values
 
 In PHP, the return statement is used to specify the value that should be returned by a function. The return statement is used to return a value from a function to the calling code, and can be used anywhere within the function.
@@ -737,6 +775,10 @@ $result = do_something(); // $result will be NULL
 ```
 
 In this example, the do_something function does not have a return statement, and therefore returns NULL by default.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
 ### 5.4 Anonymous functions and closures
 
@@ -772,6 +814,10 @@ echo $hello("Hello"); // outputs "Hello, John!"
 In this example, the anonymous function `$greet` returns another anonymous function, which is assigned to the variable `$hello`. The returned anonymous function has access to the variable $name from the outer scope, and can use it in its implementation. The result of the returned anonymous function is a string, which is outputted when the function is executed.
 
 Closures are a powerful feature of PHP, and are used extensively in functional programming, event-driven programming, and other advanced programming paradigms. Understanding closures and how to use them effectively is a key aspect of writing advanced PHP code.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
 ### 5.5 Built-in functions
 
