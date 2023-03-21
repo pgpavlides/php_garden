@@ -408,6 +408,36 @@ const PI = 3.14;
 ```
 It's a good practice to define constants in uppercase letters, to distinguish them from variables.
 
+### 3.4 Constants
+
+In PHP, constants are values that cannot be changed after they have been defined. Constants are typically used to represent values that don't change throughout the lifetime of a script, such as mathematical constants, configuration parameters, or error codes.
+
+To define a constant in PHP, you can use the define() function. The first argument to define() is the name of the constant, and the second argument is its value. The name of the constant must start with a letter or underscore, and can only contain letters, numbers, and underscores. The value can be of any data type, including integers, floats, strings, arrays, and objects.
+
+Here's an example of defining a constant in PHP:
+
+``` php
+define("PI", 3.14);
+```
+
+Once a constant has been defined, you can access its value by simply referring to its name, without the leading dollar sign used for variables. For Example:
+
+```php
+$radius = 5;
+$circumference = 2 * PI * $radius;
+```
+
+Note that constants defined using define() are global in scope, meaning that they can be accessed from anywhere in your script. Constants defined using const have the same behavior, but are defined differently.
+
+```php
+const PI = 3.14;
+```
+It's a good practice to define constants in uppercase letters, to distinguish them from variables.
+
+
+
+
+
 
 
 
