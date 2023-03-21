@@ -382,6 +382,36 @@ $d = $c + 0; // $d will be an integer with the value 42
 
 It's important to be mindful of the data types of values when performing type casting, as the results of the conversion may not always be what you expect. For example, when casting a float to an integer, the fractional part of the float will be truncated, not rounded. When casting a string to a boolean, the string "false" (not including quotes) will be cast to false, while all other strings will be cast to true.
 
+### 3.4 Constants
+
+In PHP, constants are values that cannot be changed after they have been defined. Constants are typically used to represent values that don't change throughout the lifetime of a script, such as mathematical constants, configuration parameters, or error codes.
+
+To define a constant in PHP, you can use the define() function. The first argument to define() is the name of the constant, and the second argument is its value. The name of the constant must start with a letter or underscore, and can only contain letters, numbers, and underscores. The value can be of any data type, including integers, floats, strings, arrays, and objects.
+
+Here's an example of defining a constant in PHP:
+
+``` php
+define("PI", 3.14);
+```
+
+Once a constant has been defined, you can access its value by simply referring to its name, without the leading dollar sign used for variables. For Example:
+
+```php
+$radius = 5;
+$circumference = 2 * PI * $radius;
+```
+
+Note that constants defined using define() are global in scope, meaning that they can be accessed from anywhere in your script. Constants defined using const have the same behavior, but are defined differently.
+
+```php
+const PI = 3.14;
+```
+It's a good practice to define constants in uppercase letters, to distinguish them from variables.
+
+
+
+
+
 
 
 
