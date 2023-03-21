@@ -867,7 +867,7 @@ foreach ($colors as $color) {
 ?>
 ```
 
-In this example, we create two indexed arrays: $fruits and $colors. We demonstrate how to access, modify, and add elements to these arrays. Finally, we show how to loop through the arrays using both for and foreach loops.
+In this example, we create two indexed arrays: `$fruits` and `$colors`. We demonstrate how to access, modify, and add elements to these arrays. Finally, we show how to loop through the arrays using both **for** and **foreach** loops.
 
 
 
