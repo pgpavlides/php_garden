@@ -20,6 +20,12 @@
 <img src="https://i.ibb.co/GH1CYWG/Divider.png" width="100%" > 
 </p>
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+
+
 
 PHP Garden is your comprehensive guide to nurturing and growing your PHP skills, designed for beginners and experienced developers alike. In this book, you'll discover the rich ecosystem of PHP, a powerful and popular server-side scripting language that has been at the heart of web development for over two decades.
 
