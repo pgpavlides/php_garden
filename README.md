@@ -826,7 +826,7 @@ There are many built-in functions in PHP, and the exact list of functions depend
 This list is not exhaustive, and there are many other built-in functions in PHP that can be used for specific purposes. To see a full list of built-in functions in PHP, you can refer to the official PHP documentation. https://www.php.net/manual/en/funcref.php
 
 Name | Description | CodeExample
-------|-------|-------------|
-strpos|This function searches for a specific substring within a given <br> string and returns the position of its first occurrence.  If the substring is not found, the function returns false.| <p> $string = "Hello, world!"; <br> $length = strlen($string); <br> echo $length; // Outputs: 13 <p>| 
+-------------------------------------|---------------------------|------------------------------------------|
+strpos|This function searches for a specific substring within a given string and returns the position of its first occurrence.  If the substring is not found, the function returns false.| <p> $string = "Hello, world!"; <br> $length = strlen($string); <br> echo $length; // Outputs: 13 <p>| 
 
 
