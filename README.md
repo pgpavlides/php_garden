@@ -577,6 +577,9 @@ switch ($day) {
 
 It's important to note that the break statement is used to exit the switch statement after a matching case has been executed. If a break statement is omitted, the code in the next case will be executed as well, even if it doesn't match the expression. To avoid this behavior, you can use the break statement to explicitly exit the switch statement after a matching case has been executed. The default case is optional, and will be executed if no other case matches the expression.
 
+<p align="center">
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
+</p>
 
 # 5. Functions
 
