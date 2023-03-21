@@ -456,32 +456,6 @@ const PI = 3.14;
 ```
 It's a good practice to define constants in uppercase letters, to distinguish them from variables.
 
-### 3.4 Constants
-
-In PHP, constants are values that cannot be changed after they have been defined. Constants are typically used to represent values that don't change throughout the lifetime of a script, such as mathematical constants, configuration parameters, or error codes.
-
-To define a constant in PHP, you can use the define() function. The first argument to define() is the name of the constant, and the second argument is its value. The name of the constant must start with a letter or underscore, and can only contain letters, numbers, and underscores. The value can be of any data type, including integers, floats, strings, arrays, and objects.
-
-Here's an example of defining a constant in PHP:
-
-``` php
-define("PI", 3.14);
-```
-
-Once a constant has been defined, you can access its value by simply referring to its name, without the leading dollar sign used for variables. For Example:
-
-```php
-$radius = 5;
-$circumference = 2 * PI * $radius;
-```
-
-Note that constants defined using define() are global in scope, meaning that they can be accessed from anywhere in your script. Constants defined using const have the same behavior, but are defined differently.
-
-```php
-const PI = 3.14;
-```
-It's a good practice to define constants in uppercase letters, to distinguish them from variables.
-
 <p align="center">
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
@@ -577,7 +551,7 @@ It's important to note that only one block of code will be executed for each set
 
 
 
-In PHP, the switch statement provides a convenient way to test a single expression against multiple possible values, and execute a block of code for each matching value. The switch statement is often used as an alternative to a series of if...elseif...else statements, when you need to test for many possible values of a single expression.
+In PHP, the switch statement provides a convenient way to test a single expression against multiple possible values, and execute a block of code for each matching value. The switch statement is often used as an alternative to a series of **if...elseif...else statements**, when you need to test for many possible values of a single expression.
 
 The syntax for a switch statement is as follows:
 
@@ -634,7 +608,7 @@ It's important to note that the break statement is used to exit the switch state
 
 In PHP, a function is a block of code that can be executed multiple times, and can accept input in the form of parameters, and return output in the form of a return value. Functions are useful for encapsulating and reusing code, and for organizing and simplifying complex scripts.
 
-To define a function in PHP, you use the function keyword, followed by the name of the function, a list of parameters in parentheses, and a block of code inside curly braces. The syntax for defining a function in PHP is as follows:
+To define a function in PHP, you use the `function` keyword, followed by the `name of the function`, `a list of parameters in parentheses`, and a `block of code inside curly braces`. The syntax for defining a function in PHP is as follows:
 
 ```php
 function function_name(parameter1, parameter2, ...) {
@@ -780,7 +754,7 @@ In this example, the do_something function does not have a return statement, and
 
 ### 5.4 Anonymous functions and closures
 
-In PHP, anonymous functions, also known as closures, are functions that are not bound to an identifier. Anonymous functions are typically used as function arguments, and can be created using the function keyword, followed by a list of parameters in parentheses, and a block of code inside curly braces.
+In PHP, anonymous functions, also known as **closures**, are functions that are not bound to an identifier. Anonymous functions are typically used as function arguments, and can be created using the function keyword, followed by a list of parameters in parentheses, and a block of code inside curly braces.
 
 Here's an example of an anonymous function in PHP:
 
@@ -850,22 +824,5 @@ There are many built-in functions in PHP, and the exact list of functions depend
 - **Miscellaneous functions**: `isset`, `empty`, `print_r`, `var_dump`, `unset`, `exit`
 
 This list is not exhaustive, and there are many other built-in functions in PHP that can be used for specific purposes. To see a full list of built-in functions in PHP, you can refer to the official PHP documentation. https://www.php.net/manual/en/funcref.php
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
