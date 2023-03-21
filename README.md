@@ -1025,6 +1025,39 @@ print_r($array); // Outputs: Array ( [0] => fig [1] => date [2] => cherry [3] =>
 </pre>
 </td>
 </tr>
+   <tr>
+  <td>asort</td>
+  <td>Sorts an array and maintains index association.</td>
+  <td>
+    <pre>
+$array = ["a" => "apple", "c" => "cherry", "b" => "banana"];
+asort($array);
+print_r($array); // Outputs: Array ( [a] => apple [b] => banana [c] => cherry )
+</pre>
+</td>
+</tr>
+<tr>
+<td>ksort</td>
+<td>Sorts an array by key in ascending order.</td>
+<td>
+<pre>
+$array = ["c" => "cherry", "a" => "apple", "b" => "banana"];
+ksort($array);
+print_r($array); // Outputs: Array ( [a] => apple [b] => banana [c] => cherry )
+</pre>
+</td>
+</tr>
+<tr>
+<td>array_search (Duplicate)</td>
+<td>Searches an array for a given value and returns the first corresponding key if successful.</td>
+<td>
+<pre>
+$array = ["a" => "apple", "b" => "banana", "c" => "cherry"];
+$key = array_search("banana", $array);
+echo $key; // Outputs: b
+</pre>
+</td>
+</tr>
 
   </tbody>
 </table>
