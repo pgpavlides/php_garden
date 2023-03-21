@@ -1048,7 +1048,7 @@ print_r($array); // Outputs: Array ( [a] => apple [b] => banana [c] => cherry )
 </td>
 </tr>
 <tr>
-<td>array_search (Duplicate)</td>
+<td>array_search</td>
 <td>Searches an array for a given value and returns the first corresponding key if successful.</td>
 <td>
 <pre>
