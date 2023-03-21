@@ -41,6 +41,10 @@ By working together, we can evolve this project and achieve our shared goal of h
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+<p align="center">
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
+</p>
+
 ## Table of content
 
 1. ### [Introduction](#1introduction)
@@ -140,7 +144,9 @@ By working together, we can evolve this project and achieve our shared goal of h
   
 16. ###  [Usefull Links-Resources ]()
 
-
+<p align="center">
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
+</p>
 
 # 1.Introduction
 
@@ -230,12 +236,21 @@ PHP is a widely used server-side scripting language that has both advantages and
 
 This repository is designed for anyone who is interested in learning PHP, from beginners to more advanced developers. Whether you're just starting out in web development or are looking to expand your skill set, this repository is a valuable resource that will help you gain a deeper understanding of PHP programming. Whether you want to build dynamic and interactive websites, create e-commerce sites, or develop content management systems, this repository will provide you with the knowledge and tools you need to succeed. So if you're ready to learn PHP and become a skilled programmer, this repository is for you!
 
+<p align="center">
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
+</p>
+
 # 2.Getting Started with PHP 
 
 ### 2.1 Installing PHP - XAMPP
 
 <p align="center">
   <img src="https://i.ibb.co/XCnxKjD/58482973cef1014c0b5e49fd.png" alt="image-description" height="50px" >
+</p>
+
+
+<p align="center">
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
 # 3 Variables and Data Types
