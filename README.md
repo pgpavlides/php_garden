@@ -250,7 +250,7 @@ It's important to note that in PHP, variables are **dynamically typed**, which m
 
 
 
-- *Scalar variables*: These are variables that can hold a single value, such as an integer, float, string, or boolean.
+- **Scalar variables**: These are variables that can hold a single value, such as an integer, float, string, or boolean.
 
 ```php
 $integer = 42;
