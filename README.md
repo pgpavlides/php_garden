@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-<img src="https://i.ibb.co/tq2gSQC/600px-Divider-small.png" height="200px">
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="100vh"> 
 </p>
 
 
