@@ -460,10 +460,6 @@ It's a good practice to define constants in uppercase letters, to distinguish th
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
-<p align="center">
-<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
-</p>
-
 # 4. Control Structures
 
 <p align="center">
@@ -824,18 +820,56 @@ There are many built-in functions in PHP, and the exact list of functions depend
 This list is not exhaustive, and there are many other built-in functions in PHP that can be used for specific purposes. To see a full list of built-in functions in PHP, you can refer to the official PHP documentation. https://www.php.net/manual/en/funcref.php
 
 <p align="center">
-<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
+
+# 6. Arrays
 
 <p align="center">
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-# 6. Arrays
-
 
 
 ### 6.1 Indexed Arrays
+
+Indexed arrays in PHP are arrays with numeric indexes, starting from 0. They can store values in a sequential manner, making them suitable for lists or collections of similar items. To create an indexed array, you can either use the array() function or the short array syntax []. Here's an example of how to create, manipulate, and loop through an indexed array in PHP:
+
+``` php
+<?php
+// Creating an indexed array using the array() function
+$fruits = array("apple", "banana", "cherry");
+
+// Creating an indexed array using the short array syntax
+$colors = ["red", "green", "blue"];
+
+// Accessing elements in an indexed array by index
+echo $fruits[0]; // Output: apple
+echo $colors[2]; // Output: blue
+
+// Modifying elements in an indexed array
+$fruits[1] = "mango";
+$colors[0] = "yellow";
+
+// Adding elements to an indexed array
+$fruits[] = "orange"; // Appends "orange" to the end of the array
+$colors[3] = "purple"; // Adds "purple" at index 3
+
+// Looping through an indexed array using a for loop
+for ($i = 0; $i < count($fruits); $i++) {
+    echo $fruits[$i] . "\n"; // Output: apple, mango, cherry, orange
+}
+
+// Looping through an indexed array using a foreach loop
+foreach ($colors as $color) {
+    echo $color . "\n"; // Output: yellow, green, blue, purple
+}
+?>
+```
+
+In this example, we create two indexed arrays: $fruits and $colors. We demonstrate how to access, modify, and add elements to these arrays. Finally, we show how to loop through the arrays using both for and foreach loops.
+
+
 
 
 
