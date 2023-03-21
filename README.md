@@ -797,34 +797,6 @@ There are many built-in functions in PHP, and the exact list of functions depend
 
 - **String functions**: `strlen`, `strpos`, `substr`, `strtolower`, `strtoupper`, `trim`, `explode`, `implode`, `str_replace`
 
-- **Array functions**: `array_keys`, `array_values`, `array_merge`, `array_slice`, `count`, `sort`, `rsort`, `asort`, `ksort`, `array_search`
-
-- **Math functions**: `abs`, `ceil`, `floor`, `round`, `max`, `min`, `rand`
-
-- **Date and time functions**: `date`, `time`, `mktime`, `strtotime`
-
-- **File system functions**: `fopen`, `fread`, `fwrite`, `fclose`, `file_get_contents`, `file_put_contents`
-
-- **Regular expression functions**: `preg_match`, `preg_replace`, `preg_split`
-
-- **Type casting functions**: `intval`, `floatval`, `strval`, `boolval`
-
-- **Error handling functions**: `trigger_error`, `set_error_handler`, `restore_error_handler`
-
-- **URL functions**: `parse_url`, `urlencode`, `urldecode`
-
-- **JSON functions**: `json_encode`, `json_decode`
-
-- **Database functions**: `mysql_connect`, `mysql_query`, `mysql_fetch_array`, `mysql_close`, `mysqli_connect`, `mysqli_query`, `mysqli_fetch_array`, `mysqli_close`
-
-- **Object-Oriented Programming functions**: `get_class`, `is_a`, `method_exists`, `property_exists`
-
-- **Session functions**: `session_start`, `session_destroy`, `session_unset`, `session_regenerate_id`
-
-- **Miscellaneous functions**: `isset`, `empty`, `print_r`, `var_dump`, `unset`, `exit`
-
-This list is not exhaustive, and there are many other built-in functions in PHP that can be used for specific purposes. To see a full list of built-in functions in PHP, you can refer to the official PHP documentation. https://www.php.net/manual/en/funcref.php
-
 <table>
   <thead>
     <tr>
@@ -940,6 +912,38 @@ echo $newString; // Outputs: The quick brown cat jumps over the lazy dog.
     </tr>
   </tbody>
 </table>
+
+- **Array functions**: `array_keys`, `array_values`, `array_merge`, `array_slice`, `count`, `sort`, `rsort`, `asort`, `ksort`, `array_search`
+
+- **Math functions**: `abs`, `ceil`, `floor`, `round`, `max`, `min`, `rand`
+
+- **Date and time functions**: `date`, `time`, `mktime`, `strtotime`
+
+- **File system functions**: `fopen`, `fread`, `fwrite`, `fclose`, `file_get_contents`, `file_put_contents`
+
+- **Regular expression functions**: `preg_match`, `preg_replace`, `preg_split`
+
+- **Type casting functions**: `intval`, `floatval`, `strval`, `boolval`
+
+- **Error handling functions**: `trigger_error`, `set_error_handler`, `restore_error_handler`
+
+- **URL functions**: `parse_url`, `urlencode`, `urldecode`
+
+- **JSON functions**: `json_encode`, `json_decode`
+
+- **Database functions**: `mysql_connect`, `mysql_query`, `mysql_fetch_array`, `mysql_close`, `mysqli_connect`, `mysqli_query`, `mysqli_fetch_array`, `mysqli_close`
+
+- **Object-Oriented Programming functions**: `get_class`, `is_a`, `method_exists`, `property_exists`
+
+- **Session functions**: `session_start`, `session_destroy`, `session_unset`, `session_regenerate_id`
+
+- **Miscellaneous functions**: `isset`, `empty`, `print_r`, `var_dump`, `unset`, `exit`
+
+This list is not exhaustive, and there are many other built-in functions in PHP that can be used for specific purposes. To see a full list of built-in functions in PHP, you can refer to the official PHP documentation. https://www.php.net/manual/en/funcref.php
+
+
+
+
 
 
 
