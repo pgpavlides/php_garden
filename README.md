@@ -293,7 +293,7 @@ $database = mysqli_connect("localhost", "user", "password", "database");
 $null_variable = null;
 ```
 
-### 3.1 Data types
+### 3.2 Data types
 
 - **Integers**: Represent whole numbers, such as 42 or -123.
 
@@ -357,6 +357,31 @@ $database = mysqli_connect("localhost", "user", "password", "database");
 ```php
 $null_variable = null;
 ```
+
+### 3.3 Type Casting
+
+In PHP, type casting refers to the process of converting a value from one data type to another. This is sometimes necessary when working with values of different data types, such as when you need to perform arithmetic with a string that contains a number.
+
+Type casting in PHP can be done either explicitly or implicitly. Explicit type casting is performed using type casting functions, such as (**int**), (**float**), (**string**), and (**bool**). For example:
+
+```php
+$a = (int) "42"; // $a will be an integer with the value 42
+$b = (float) "3.14"; // $b will be a float with the value 3.14
+$c = (string) 42; // $c will be a string with the value "42"
+$d = (bool) 0; // $d will be a boolean with the value false
+```
+
+Implicit type casting occurs automatically in certain situations, such as when a value is used in a context that requires a different data type. For example:
+
+```php
+$a = 42;
+$b = $a + 0.5; // $b will be a float with the value 42.5
+$c = "42";
+$d = $c + 0; // $d will be an integer with the value 42
+```
+
+It's important to be mindful of the data types of values when performing type casting, as the results of the conversion may not always be what you expect. For example, when casting a float to an integer, the fractional part of the float will be truncated, not rounded. When casting a string to a boolean, the string "false" (not including quotes) will be cast to false, while all other strings will be cast to true.
+
 
 
 
