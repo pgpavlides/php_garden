@@ -453,6 +453,85 @@ const PI = 3.14;
 ```
 It's a good practice to define constants in uppercase letters, to distinguish them from variables.
 
+<p align="center">
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
+</p>
+
+# 4. Control Structures
+### 4.1 Conditionals (if, else, elseif)
+
+In PHP, you can use conditionals to execute different blocks of code based on the value of one or more expressions. The most commonly used conditional statements are **if**, **else**, and **elseif**.
+
+The **if statement** is used to execute a block of code if a certain condition is true. The syntax for an if statement is as follows:
+
+
+```php
+if (condition) {
+    // code to be executed if condition is true
+}
+```
+
+For example:
+
+```php
+$a = 42;
+
+if ($a > 0) {
+    echo "$a is positive.";
+}
+```
+
+The **else statement** is used to execute a block of code if the condition in the if statement is false. The syntax for an else statement is as follows:
+
+```php
+if (condition) {
+    // code to be executed if condition is true
+} else {
+    // code to be executed if condition is false
+}
+```
+
+For example:
+
+```php
+$a = -42;
+
+if ($a > 0) {
+    echo "$a is positive.";
+} else {
+    echo "$a is not positive.";
+}
+```
+
+The **elseif statement** is used to test multiple conditions, and execute a different block of code for each condition that is true. The syntax for an elseif statement is as follows:
+
+```php
+if (condition1) {
+    // code to be executed if condition1 is true
+} elseif (condition2) {
+    // code to be executed if condition1 is false and condition2 is true
+} else {
+    // code to be executed if neither condition1 nor condition2 is true
+}
+```
+
+For example:
+
+```php
+$a = 0;
+
+if ($a > 0) {
+    echo "$a is positive.";
+} elseif ($a < 0) {
+    echo "$a is negative.";
+} else {
+    echo "$a is zero.";
+}
+```
+
+It's important to note that only one block of code will be executed for each set of conditions, and the first condition that is true will cause its corresponding code to be executed and any remaining conditions to be skipped.
+
+
 
 
 
