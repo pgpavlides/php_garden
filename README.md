@@ -591,6 +591,69 @@ switch ($day) {
 It's important to note that the break statement is used to exit the switch statement after a matching case has been executed. If a break statement is omitted, the code in the next case will be executed as well, even if it doesn't match the expression. To avoid this behavior, you can use the break statement to explicitly exit the switch statement after a matching case has been executed. The default case is optional, and will be executed if no other case matches the expression.
 
 <p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 4.3 Loops (for, while, do-while, foreach)
+
+In PHP, loops are used to execute a block of code repeatedly until a specified condition is met. There are four main types of loops in PHP: for, while, do-while, and foreach. Here's a brief overview of each loop along with an example:
+
+- **For loop**:
+The for loop is used when you know how many times you want to execute the loop. It has three parts: an initialization expression, a condition, and an increment/decrement expression.
+
+Example:
+
+```php
+
+for ($i = 0; $i < 5; $i++) {
+    echo "Iteration: $i\n";
+}
+
+```
+
+- **While loop**:
+The while loop executes a block of code as long as a given condition is true. If the condition is false initially, the loop body will not be executed.
+
+Example:
+
+```php
+$count = 0;
+while ($count < 5) {
+    echo "Iteration: $count\n";
+    $count++;
+}
+
+```
+
+- **Do-while loop**:
+The do-while loop is similar to the while loop, but the loop body is executed at least once, because the condition is checked after the loop body is executed.
+
+Example:
+
+```php
+$count = 0;
+do {
+    echo "Iteration: $count\n";
+    $count++;
+} while ($count < 5);
+```
+
+- **Foreach loop**:
+The foreach loop is used to iterate through arrays or objects. It is particularly useful when working with associative arrays, as it provides an easy way to access both keys and values.
+
+Example:
+
+```php
+$array = ['apple', 'banana', 'cherry'];
+foreach ($array as $key => $value) {
+    echo "Key: $key, Value: $value\n";
+}
+```
+
+In this example, the foreach loop iterates through the $array and assigns the key and value of each element to the $key and $value variables respectively, which can then be used within the loop body.
+
+
+<p align="center">
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
