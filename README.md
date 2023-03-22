@@ -44,49 +44,49 @@ By working together, we can evolve this project and achieve our shared goal of h
 
 ## Table of content
 
-1. ### [Introduction](#1-introduction)
- - 1.1 [Why PHP?](#11-why-php)
- - 1.2 [Brief history of PHP](#12-brief-history-of-php)
- - 1.3 [Advantages and disadvantages](#13-advantages-and-disadvantages-of-php)
+1. ### [Introduction](#1introduction)
+ - 1.1 [Why PHP?](#11-why-php-)
+ - 1.2 [Brief history of PHP](#12-brief-history-of-php-)
+ - 1.3 [Advantages and disadvantages](#13-advantages-and-disadvantages-of-php-)
  - 1.4 [Who should read this repo?](#14-who-should-read-this-repo)
 
-2. ###  [Getting Started with PHP]()
+2. ###  [Getting Started with PHP](#2getting-started-with-php)
  - 2.1 [Installing PHP]()
  - 2.2 [Basic PHP syntax]()
  - 2.3 [Running your first PHP script]()
 
-3. ###  [Variables and Data Types]()
- - 3.1 [Variables]()
- - 3.2 [Data types]()
- - 3.3 [Type casting]()
- - 3.4 [Constants]()
+3. ###  [Variables and Data Types](#3-variables-and-data-types)
+ - 3.1 [Variables](#31-variables)
+ - 3.2 [Data types](#32-data-types)
+ - 3.3 [Type casting](33-type-casting)
+ - 3.4 [Constants](#34-constants)
 
-4. ###  [Control Structures]()
- - 4.1 [Conditionals (if, else, elseif)]()
- - 4.2 [Switch statements]()
+4. ###  [Control Structures](#4-control-structures)
+ - 4.1 [Conditionals (if, else, elseif)](#41-conditionals-if-else-elseif)
+ - 4.2 [Switch statements](#42-switch-statements)
  - 4.3 [Loops (for, while, do-while, foreach)]()
 
-5. ###  [Functions]()
- - 5.1 [Defining functions]()
- - 5.2 [Function arguments]()
- - 5.3 [Return values]()
- - 5.4 [Anonymous functions and closures]()
- - 5.4 [Built-in functions]()
+5. ###  [Functions](#5-functions)
+ - 5.1 [Defining functions](#51-defining-functions)
+ - 5.2 [Function arguments](#52-function-arguments)
+ - 5.3 [Return values](#53-return-values)
+ - 5.4 [Anonymous functions and closures](#54-anonymous-functions-and-closures)
+ - 5.4 [Built-in functions](#55-built-in-functions)
 
-6. ###  [Arrays]()
- - 6.1 [Indexed arrays]()
- - 6.2 [Associative arrays]()
- - 6.3 [Multidimensional arrays]()
- - 6.4 [Array functions]()
+6. ###  [Arrays](#6-arrays)
+ - 6.1 [Indexed arrays](#62-associative-arrays)
+ - 6.2 [Associative arrays](#63-multidimensional-arrays)
+ - 6.3 [Multidimensional arrays](#63-multidimensional-arrays)
+ - 6.4 [Array functions](#64-array-functions)
 
-7. ###  [Strings]()
- - 7.1 [String basics]()
- - 7.2 [String manipulation]()
- - 7.3 [Regular expressions]()
+7. ###  [Strings](#7-strings)
+ - 7.1 [String basics](#71-string-basics)
+ - 7.2 [String manipulation](#72-string-manipulation)
+ - 7.3 [Regular expressions](#73-regular-expressions)
 
-8. ###  [Object-Oriented PHP]()
- - 8.1 [Classes and objects]()
- - 8.2 [Properties and methods]()
+8. ###  [Object-Oriented PHP](#8-object-oriented-php)
+ - 8.1 [Classes and objects](#81-classes-and-objects)
+ - 8.2 [Properties and methods](#82-properties-and-methods)
  - 8.3 [Inheritance]()
  - 8.4 [Interfaces]()
  - 8.5 [Traits]()
@@ -1437,4 +1437,7 @@ $dog1->bark(); // Output: "Woof! Woof!"
 ```
 
 In summary, properties and methods are essential parts of classes in OOP. They define the state and behavior of objects created from those classes, allowing you to encapsulate data and functionality within objects.
+
+
+
 
