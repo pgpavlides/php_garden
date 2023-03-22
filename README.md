@@ -1062,7 +1062,163 @@ These are just a few examples of the array functions available in PHP. You can f
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 7.1 Array Functions
+### 7.1 String basics
+
+In PHP, strings are sequences of characters used to represent text. They can be created using either single quotes (') or double quotes ("), and they have some important differences in how they are interpreted:
+
+- **Single-quoted strings**: These strings are interpreted literally, meaning that any escape sequences (except for \' and \\) will not be processed. Variables inside single-quoted strings will not be expanded.
+
+```php
+$string1 = 'Hello, my name is $name.';
+echo $string1; // Output: Hello, my name is $name.
+
+```
+
+- **Double-quoted strings**: These strings are more flexible, as they can interpret escape sequences (like \n for newline or \t for tab) and expand variables within the string.
+
+```php
+$name = 'Alice';
+$string2 = "Hello, my name is $name.";
+echo $string2; // Output: Hello, my name is Alice.
+```
+
+You can also create strings using the heredoc and nowdoc syntax, which are useful for defining multi-line strings:
+
+- **Heredoc**: Similar to double-quoted strings, heredoc syntax supports escape sequences and variable interpolation.
+
+```php
+$string3 = <<<EOT
+Hello, my name is $name.
+This is a multi-line string.
+EOT;
+
+echo $string3;
+```
+
+- **Nowdoc**: Similar to single-quoted strings, nowdoc syntax does not process escape sequences or variables.
+
+String manipulation and functions are an essential part of PHP programming. Some common string functions include:
+
+| Function Name             | Description                                                    |
+|---------------------------|----------------------------------------------------------------|
+| strlen($string)           | Returns the length of the string.                              |
+| strpos($haystack, $needle)| Finds the position of the first occurrence of a substring in a string. |
+| substr($string, $start, $length) | Returns a part of a string.                                 |
+| str_replace($search, $replace, $subject) | Replaces all occurrences of a search value with a replacement value in a string. |
+| strtolower($string)       | Converts a string to lowercase.                                |
+| strtoupper($string)       | Converts a string to uppercase.                                |
+| trim($string)             | Strips whitespace (or other characters) from the beginning and end of a string. |
+
+
+Here's an example of using some of these string functions:
+
+```php
+$string = "  Hello, my name is Alice.  ";
+$length = strlen(trim($string));
+$lowercase = strtolower($string);
+$uppercase = strtoupper($string);
+$replaced = str_replace("Alice", "Bob", $string);
+
+echo $length . "\n"; // Output: 20
+echo $lowercase . "\n"; // Output: "  hello, my name is alice.  "
+echo $uppercase . "\n"; // Output: "  HELLO, MY NAME IS ALICE.  "
+echo $replaced . "\n"; // Output: "  Hello, my name is Bob.  "
+```
+
+These are some of the basics of strings in PHP, including how to create, manipulate, and use them in various ways.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 7.2 String manipulation
+
+
+
+| Function Name             | Description                                                    | Code Example                                     |
+|---------------------------|----------------------------------------------------------------|--------------------------------------------------|
+| strlen($string)           | Returns the length of the string.                              | `echo strlen("Hello, World!"); // Output: 13`    |
+| strpos($haystack, $needle)| Finds the position of the first occurrence of a substring in a string. | `echo strpos("Hello, World!", "World"); // Output: 7` |
+| substr($string, $start, $length) | Returns a part of a string.                                 | `echo substr("Hello, World!", 7, 5); // Output: "World"` |
+| str_replace($search, $replace, $subject) | Replaces all occurrences of a search value with a replacement value in a string. | `echo str_replace("World", "PHP", "Hello, World!"); // Output: "Hello, PHP!"` |
+| strtolower($string)       | Converts a string to lowercase.                                | `echo strtolower("Hello, World!"); // Output: "hello, world!"` |
+| strtoupper($string)       | Converts a string to uppercase.                                | `echo strtoupper("Hello, World!"); // Output: "HELLO, WORLD!"` |
+| trim($string)             | Strips whitespace (or other characters) from the beginning and end of a string. | `echo trim("   Hello, World!   "); // Output: "Hello, World!"` |
+
+### 7.3 Regular expressions
+
+Regular expressions, often abbreviated as regex, are a powerful tool for pattern matching and manipulation of strings in PHP. They allow you to perform complex searches, validate input, replace substrings, and much more.
+
+In PHP, regular expressions are implemented using the Perl Compatible Regular Expressions (PCRE) library, which provides functions such as `preg_match()`, `preg_match_all()`, `preg_replace()`, `preg_replace_callback()`, and `preg_split()`.
+
+Here's an overview of some common PHP regex functions:
+
+- `preg_match($pattern, $subject, $matches)`: Searches a string `$subject` for a match to the regular expression `$pattern`. If a match is found, it returns 1, otherwise 0. If the optional $matches parameter is provided, it will be filled with the results of the search.
+
+```php
+$pattern = '/world/i'; // Case-insensitive search for the word "world"
+$subject = 'Hello, World!';
+$result = preg_match($pattern, $subject, $matches);
+echo $result; // Output: 1
+print_r($matches); // Output: Array ( [0] => World )
+```
+
+- `preg_match_all($pattern, $subject, $matches)`: Searches a string `$subject` for all matches to the regular expression `$pattern` and puts them in the `$matches` array.
+
+```php
+$pattern = '/\d+/'; // Matches one or more digits
+$subject = 'There are 3 cats and 5 dogs.';
+$result = preg_match_all($pattern, $subject, $matches);
+echo $result; // Output: 2
+print_r($matches); // Output: Array ( [0] => Array ( [0] => 3 [1] => 5 ) )
+```
+
+- `preg_replace($pattern, $replacement, $subject)`: Searches a string `$subject` for matches to the regular expression `$pattern` and replaces them with the `$replacement`.
+
+```php
+$pattern = '/\s+/'; // Matches one or more whitespace characters
+$replacement = '-';
+$subject = 'This is a string with spaces.';
+$result = preg_replace($pattern, $replacement, $subject);
+echo $result; // Output: "This-is-a-string-with-spaces."
+```
+
+- `preg_replace_callback($pattern, $callback, $subject)`: Searches a string `$subject `for matches to the regular expression `$pattern` and replaces them with the result of calling the `$callback` function on the matches.
+
+```php
+$pattern = '/\d+/';
+$subject = 'There are 3 cats and 5 dogs.';
+
+$result = preg_replace_callback($pattern, function ($matches) {
+    return $matches[0] * 2;
+}, $subject);
+
+echo $result; // Output: "There are 6 cats and 10 dogs."
+```
+
+`preg_split($pattern, $subject)`: Splits a string `$subject` by a regular expression `$pattern`.
+
+```php
+$pattern = '/\s+/'; // Matches one or more whitespace characters
+$subject = 'This is a string with spaces.';
+$result = preg_split($pattern, $subject);
+print_r($result); // Output: Array ( [0] => This [1] => is [2] => a [3] => string [4] => with [5] => spaces. )
+```
+
+These functions are the most common tools for working with regular expressions in PHP. Regular expressions are a powerful way to search, replace, and manipulate strings based on complex patterns, which can be particularly useful for tasks like input validation, text processing, and data extraction.
+
+
+<p align="center">
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
+</p>
+
+# 8. Object-Oriented PHP
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 8.1 Object-Oriented Programming (OOP)
 
 Object-Oriented Programming (OOP) is a programming paradigm that uses objects and their interactions to design and implement software. PHP supports OOP features, allowing developers to create modular, reusable, and maintainable code.
 
@@ -1174,12 +1330,4 @@ class Rectangle implements Shape {
 ```
 
 These concepts form the basis of OOP in PHP. Using OOP can help you create structured, flexible, and maintainable code for your PHP applications.
-
-
-
-
-
-
-
-
 
