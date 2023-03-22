@@ -44,7 +44,7 @@ By working together, we can evolve this project and achieve our shared goal of h
 
 ## Table of content
 
-1. ### [Introduction](#1introduction)
+1. ### [Introduction](#1-introduction)
  - 1.1 [Why PHP?](#11-why-php)
  - 1.2 [Brief history of PHP](#12-brief-history-of-php)
  - 1.3 [Advantages and disadvantages](#13-advantages-and-disadvantages-of-php)
