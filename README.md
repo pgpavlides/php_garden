@@ -869,14 +869,70 @@ foreach ($colors as $color) {
 
 In this example, we create two indexed arrays: `$fruits` and `$colors`. We demonstrate how to access, modify, and add elements to these arrays. Finally, we show how to loop through the arrays using both **for** and **foreach** loops.
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
 
+### 6.1 Associative Arrays
 
+In PHP, associative arrays are implemented using arrays. Unlike indexed arrays, which use numerical indices, associative arrays use string keys to map to their corresponding values. You can create an associative array using the array() construct or the short syntax []. Here are some examples of associative arrays in PHP:
 
+1. Creating an associative array:
 
+``` php
+// Using array() construct
+$phone_book = array(
+    'Alice' => '555-1234',
+    'Bob' => '555-5678',
+    'Charlie' => '555-2468'
+);
 
+// Using short syntax []
+$phone_book = [
+    'Alice' => '555-1234',
+    'Bob' => '555-5678',
+    'Charlie' => '555-2468'
+];
 
+```
+2. Adding a new entry:
 
+```php
+$phone_book['David'] = '555-1357';
+```
 
+3. Accessing a value by key:
 
+```php
+echo $phone_book['Alice']; // Output: '555-1234'
+```
 
+4. Iterating through an associative array:
+
+```php
+foreach ($phone_book as $name => $phone_number) {
+    echo $name . ": " . $phone_number . "\n";
+}
+```
+
+This would output:
+```php
+Alice: 555-1234
+Bob: 555-5678
+Charlie: 555-2468
+David: 555-1357
+```
+
+5. Checking if a key exists:
+
+```php
+if (array_key_exists('Alice', $phone_book)) {
+    echo "Alice's phone number is " . $phone_book['Alice'] . "\n";
+} else {
+    echo "Alice's phone number is not in the phone book.\n";
+}
+
+```
+
+These examples demonstrate how to create, add, access, iterate, and check for the existence of keys in associative arrays in PHP.
 
