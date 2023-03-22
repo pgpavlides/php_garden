@@ -873,7 +873,7 @@ In this example, we create two indexed arrays: `$fruits` and `$colors`. We demon
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 6.1 Associative Arrays
+### 6.2 Associative Arrays
 
 In PHP, associative arrays are implemented using arrays. Unlike indexed arrays, which use numerical indices, associative arrays use string keys to map to their corresponding values. You can create an associative array using the array() construct or the short syntax []. Here are some examples of associative arrays in PHP:
 
@@ -935,4 +935,121 @@ if (array_key_exists('Alice', $phone_book)) {
 ```
 
 These examples demonstrate how to create, add, access, iterate, and check for the existence of keys in associative arrays in PHP.
+
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 6.3 Multidimensional Arrays
+
+Multidimensional arrays in PHP are arrays that contain other arrays as their elements. These nested arrays can be indexed or associative, and can be used to represent complex data structures like tables or matrices. Multidimensional arrays can have multiple levels of depth, but the most common type is the two-dimensional array.
+
+Here's an example of a two-dimensional indexed array representing a matrix:
+
+
+```php
+$matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+
+```
+
+In this example, $matrix is an array containing three arrays, each with three elements.
+
+You can also create multidimensional associative arrays. Here's an example of a two-dimensional associative array representing user data:
+
+
+```php
+$users = [
+    'Alice' => [
+        'age' => 30,
+        'email' => 'alice@example.com'
+    ],
+    'Bob' => [
+        'age' => 25,
+        'email' => 'bob@example.com'
+    ],
+    'Charlie' => [
+        'age' => 35,
+        'email' => 'charlie@example.com'
+    ]
+];
+```
+
+In this example, $users is an associative array where each key maps to another associative array containing user data.
+
+To access elements in a multidimensional array, you can use multiple indices or keys:
+
+```php
+echo $matrix[0][1]; // Output: 2
+echo $users['Alice']['email']; // Output: alice@example.com
+
+```
+
+You can also iterate through a multidimensional array using nested loops. For indexed arrays:
+
+```php
+for ($i = 0; $i < count($matrix); $i++) {
+    for ($j = 0; $j < count($matrix[$i]); $j++) {
+        echo $matrix[$i][$j] . ' ';
+    }
+    echo "\n";
+}
+```
+
+For associative arrays:
+
+```php
+foreach ($users as $name => $user_data) {
+    echo $name . ":\n";
+    foreach ($user_data as $key => $value) {
+        echo "  " . $key . ": " . $value . "\n";
+    }
+}
+```
+
+These examples demonstrate how to create, access, and iterate through multidimensional arrays in PHP. Multidimensional arrays are a powerful tool for organizing and manipulating complex data structures in your PHP applications.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 6.4 Array Functions
+
+PHP provides a wide range of built-in array functions for various operations on arrays. Here's a list of some of the most common array functions in PHP:
+
+
+| Function Name           | Description                                               |
+|-------------------------|-----------------------------------------------------------|
+| `count($array) `          | Returns the number of elements in the array.             |
+| `array_merge(...) `       | Merges two or more arrays together.                      |
+| `array_push(...) `        | Adds one or more elements to the end of an array.        |
+| `array_pop($array) `      | Removes and returns the last element of an array.        |
+|`array_shift($array) `    | Removes and returns the first element of an array.       |
+|` array_unshift(...)  `    | Adds one or more elements to the beginning of an array.  |
+| `array_slice(...)    `    | Extracts a portion of an array and returns it as a new array. |
+|` array_splice(...)  `     | Removes and/or replaces elements from an array.          |
+|` array_diff(...)    `     | Computes the difference of arrays, comparing elements by value. |
+| `array_intersect(...) `   | Computes the intersection of arrays, comparing elements by value. |
+| `array_unique($array)`    | Removes duplicate values from an array.                  |
+| `array_search(...)`       | Searches for a given value in an array and returns the first corresponding key if found. |
+| `array_key_exists(...)`   | Checks if the given key or index exists in the array.    |
+| `array_keys($array)`      | Returns all the keys or a subset of the keys of an array. |
+| `array_values($array)`    | Returns all the values of an array.                      |
+| `array_reverse($array)`   | Returns an array with the order of the elements reversed. |
+| `array_filter(...)`      | Filters the elements of an array using a callback function. |
+| `array_map(...) `         | Applies a callback function to the elements of one or more arrays and returns a new array with the results. |
+| `array_reduce(...)`       | Iteratively reduces the array to a single value using a callback function. |
+| `sort($array)`            | Sorts an array in ascending order.                        |
+| `rsort($array)`           | Sorts an array in descending order.                       |
+| `asort($array)`           | Sorts an associative array in ascending order, according to the values. |
+| `arsort($array)`          | Sorts an associative array in descending order, according to the values. |
+| `ksort($array)`           | Sorts an associative array in ascending order, according to the keys. |
+| `krsort($array) `         | Sorts an associative array in descending order, according to the keys. |
+
+These are just a few examples of the array functions available in PHP. You can find a comprehensive list of array functions and their descriptions in the official PHP documentation: https://www.php.net/manual/en/ref.array.php
+
 
