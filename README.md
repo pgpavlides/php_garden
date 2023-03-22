@@ -1218,8 +1218,6 @@ These functions are the most common tools for working with regular expressions i
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 8.1 Object-Oriented Programming (OOP)
-
 Object-Oriented Programming (OOP) is a programming paradigm that uses objects and their interactions to design and implement software. PHP supports OOP features, allowing developers to create modular, reusable, and maintainable code.
 
 Here are some key OOP concepts in PHP:
@@ -1330,4 +1328,113 @@ class Rectangle implements Shape {
 ```
 
 These concepts form the basis of OOP in PHP. Using OOP can help you create structured, flexible, and maintainable code for your PHP applications.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 8.1 Classes and Objects
+
+In PHP, classes and objects are fundamental concepts of Object-Oriented Programming (OOP). They allow you to create modular, reusable, and maintainable code.
+
+**Classes**: A class is a blueprint or template for creating objects, which are instances of the class. It defines properties (attributes) and methods (functions) that are common to all objects of that class.
+
+Here's an example of a class in PHP:
+
+```php
+class Person {
+    public $name;
+    public $age;
+
+    public function greet() {
+        return "Hello, my name is " . $this->name . " and I am " . $this->age . " years old.";
+    }
+}
+```
+
+In this example, `Person` is a class with two properties (`$name` and `$age`) and one method (`greet()`). The `public` keyword indicates the visibility of the properties and method, meaning they can be accessed from outside the class.
+
+**Objects**: An object is an individual instance of a class, created using the `new` keyword. An object has its own set of properties and methods defined by its class.
+
+Here's an example of creating an object and using its properties and methods:
+
+```php
+$alice = new Person(); // Create a new object of the Person class
+$alice->name = 'Alice'; // Set the name property of the alice object
+$alice->age = 30; // Set the age property of the alice object
+
+echo $alice->greet(); // Call the greet() method on the alice object and output the result
+// Output: "Hello, my name is Alice and I am 30 years old."
+```
+
+In this example, `$alice` is an object of the `Person` class. We set the `name` and `age` properties and call the `greet()` method on the object.
+
+In summary, classes and objects are the building blocks of OOP in PHP. Classes define the structure and behavior of objects, while objects are individual instances of classes with their own properties and methods. Using classes and objects can help you write more organized, modular, and maintainable code in your PHP applications.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 8.2 Properties and methods
+
+In the context of Object-Oriented Programming (OOP), classes are blueprints for creating objects. Classes can have properties and methods, which define the state and behavior of the objects created from those classes.
+
+**Properties** (also known as attributes or fields) represent the state or data of an object. They store values that are specific to each object created from a class. Properties can have different visibility levels (public, protected, and private) that determine the scope of access for that property.
+
+**Methods** (also known as functions) represent the behavior or actions of an object. They are used to manipulate the object's properties or perform some operation on the object's data. Like properties, methods can also have different visibility levels (public, protected, and private).
+
+Here's an example of a simple class in PHP with properties and methods:
+
+```php
+class Dog {
+    // Properties
+    public $name;
+    public $breed;
+    private $age;
+
+    // Constructor to initialize properties
+    public function __construct($name, $breed, $age) {
+        $this->name = $name;
+        $this->breed = $breed;
+        $this->age = $age;
+    }
+
+    // Method to get the dog's age
+    public function getAge() {
+        return $this->age;
+    }
+
+    // Method to set the dog's age
+    public function setAge($age) {
+        if ($age >= 0) {
+            $this->age = $age;
+        }
+    }
+
+    // Method to make the dog bark
+    public function bark() {
+        echo "Woof! Woof!";
+    }
+}
+```
+
+In the example above:
+
+- The `Dog` class has three properties: `$name`, `$breed`, and `$age`. The `$name` and `$breed` properties are public, while the `$age` property is private.
+- The `__construct()` method is a special method called the constructor, which is called when a new object is created. In this case, it initializes the properties of the `Dog` class.
+- The `getAge()` and `setAge($age)` methods are public methods used to get and set the value of the `$age` property.
+- The `bark()` method is a public method that makes the dog "bark" by printing "Woof! Woof!" to the output.
+
+You can create objects from the `Dog` class and interact with its properties and methods like this:
+
+```php
+$dog1 = new Dog("Buddy", "Golden Retriever", 3);
+echo $dog1->name; // Output: "Buddy"
+echo $dog1->getAge(); // Output: 3
+$dog1->setAge(4);
+echo $dog1->getAge(); // Output: 4
+$dog1->bark(); // Output: "Woof! Woof!"
+```
+
+In summary, properties and methods are essential parts of classes in OOP. They define the state and behavior of objects created from those classes, allowing you to encapsulate data and functionality within objects.
 
