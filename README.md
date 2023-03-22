@@ -74,8 +74,8 @@ By working together, we can evolve this project and achieve our shared goal of h
  - 5.4 [Built-in functions](#55-built-in-functions)
 
 6. ###  [Arrays](#6-arrays)
- - 6.1 [Indexed arrays](#62-associative-arrays)
- - 6.2 [Associative arrays](#63-multidimensional-arrays)
+ - 6.1 [Indexed arrays](#61-indexed-arrays)
+ - 6.2 [Associative arrays](#62-associative-arrays)
  - 6.3 [Multidimensional arrays](#63-multidimensional-arrays)
  - 6.4 [Array functions](#64-array-functions)
 
