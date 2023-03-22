@@ -1052,4 +1052,134 @@ PHP provides a wide range of built-in array functions for various operations on 
 
 These are just a few examples of the array functions available in PHP. You can find a comprehensive list of array functions and their descriptions in the official PHP documentation: https://www.php.net/manual/en/ref.array.php
 
+<p align="center">
+<img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
+</p>
+
+# 7. Strings
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 7.1 Array Functions
+
+Object-Oriented Programming (OOP) is a programming paradigm that uses objects and their interactions to design and implement software. PHP supports OOP features, allowing developers to create modular, reusable, and maintainable code.
+
+Here are some key OOP concepts in PHP:
+
+- **Classes**: A class is a blueprint for creating objects (a particular data structure). It defines properties (attributes) and methods (functions) that are common to all objects of that class.
+
+```php
+class Person {
+    public $name;
+    public $age;
+
+    public function greet() {
+        return "Hello, my name is " . $this->name . " and I am " . $this->age . " years old.";
+    }
+}
+```
+
+- **Objects**: An object is an instance of a class. It has its own set of properties and methods defined by its class.
+
+```php
+$alice = new Person();
+$alice->name = 'Alice';
+$alice->age = 30;
+
+echo $alice->greet(); // Output: "Hello, my name is Alice and I am 30 years old."
+
+```
+
+- **Encapsulation**: Encapsulation is the process of bundling data (properties) and methods that operate on the data within a single unit (class). It is used to hide the internal implementation details and expose only what is necessary.
+
+```php
+class BankAccount {
+    private $balance;
+
+    public function __construct($initialBalance) {
+        $this->balance = $initialBalance;
+    }
+
+    public function deposit($amount) {
+        $this->balance += $amount;
+    }
+
+    public function withdraw($amount) {
+        if ($amount <= $this->balance) {
+            $this->balance -= $amount;
+            return $amount;
+        }
+        return 0;
+    }
+
+    public function getBalance() {
+        return $this->balance;
+    }
+}
+```
+
+- **Inheritance**: Inheritance is a mechanism that allows one class to inherit properties and methods from another class. The class that inherits is called the subclass (or derived class), and the class being inherited from is called the superclass (or base class).
+
+```php
+class Employee extends Person {
+    public $position;
+
+    public function greet() {
+        return parent::greet() . " I work as a " . $this->position . ".";
+    }
+}
+
+$bob = new Employee();
+$bob->name = 'Bob';
+$bob->age = 25;
+$bob->position = 'developer';
+
+echo $bob->greet(); // Output: "Hello, my name is Bob and I am 25 years old. I work as a developer."
+```
+
+- **Polymorphism**: Polymorphism is the ability of different classes to implement the same interface or extend the same base class while providing their own implementation for the inherited methods.
+
+```php
+interface Shape {
+    public function area();
+}
+
+class Circle implements Shape {
+    private $radius;
+
+    public function __construct($radius) {
+        $this->radius = $radius;
+    }
+
+    public function area() {
+        return pi() * pow($this->radius, 2);
+    }
+}
+
+class Rectangle implements Shape {
+    private $width;
+    private $height;
+
+    public function __construct($width, $height) {
+        $this->width = $width;
+        $this->height = $height;
+    }
+
+    public function area() {
+        return $this->width * $this->height;
+    }
+}
+```
+
+These concepts form the basis of OOP in PHP. Using OOP can help you create structured, flexible, and maintainable code for your PHP applications.
+
+
+
+
+
+
+
+
 
