@@ -64,7 +64,7 @@ By working together, we can evolve this project and achieve our shared goal of h
 4. ###  [Control Structures](#4-control-structures)
  - 4.1 [Conditionals (if, else, elseif)](#41-conditionals-if-else-elseif)
  - 4.2 [Switch statements](#42-switch-statements)
- - 4.3 [Loops (for, while, do-while, foreach)]()
+ - 4.3 [Loops (for, while, do-while, foreach)](#43-loops-for-while-do-while-foreach)
 
 5. ###  [Functions](#5-functions)
  - 5.1 [Defining functions](#51-defining-functions)
@@ -1500,7 +1500,5 @@ $dog1->bark(); // Output: "Woof! Woof!"
 ```
 
 In summary, properties and methods are essential parts of classes in OOP. They define the state and behavior of objects created from those classes, allowing you to encapsulate data and functionality within objects.
-
-
 
 
