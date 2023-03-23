@@ -1501,4 +1501,116 @@ $dog1->bark(); // Output: "Woof! Woof!"
 
 In summary, properties and methods are essential parts of classes in OOP. They define the state and behavior of objects created from those classes, allowing you to encapsulate data and functionality within objects.
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+
+### 8.3 Inheritance
+
+Inheritance is a fundamental concept in object-oriented programming (OOP) that allows you to create a new class, called a child class, that inherits properties and methods from an existing class, known as the parent class. This promotes code reusability and modularity, making it easier to maintain and extend the functionality of a program. PHP, being an OOP language, supports inheritance.
+
+Here's a brief overview of inheritance in PHP:
+
+**1. Parent class**: The parent class is the original class that you want to inherit from. It can have properties (variables) and methods (functions) that the child class can access and use.
+
+**2. Child class**: The child class is the new class that inherits from the parent class. It can access the parent class's properties and methods (except private ones), and it can also have its own properties and methods.
+
+To create a child class that inherits from a parent class in PHP, you can use the extends keyword:
+
+```php
+class ParentClass {
+  protected $property;
+
+  public function parentMethod() {
+    // Some code here
+  }
+}
+
+class ChildClass extends ParentClass {
+  public function childMethod() {
+    // This class can access $property and parentMethod() from ParentClass
+  }
+}
+```
+
+In the example above, `ChildClass` inherits from `ParentClass`. The child class can access the parent class's `$property` and `parentMethod()` as long as they are declared as `public` or `protected`. Note that private properties and methods are not accessible to child classes.
+
+Additionally, PHP supports the following concepts in inheritance:
+
+**1. Overriding**: Child classes can override parent class methods by declaring a method with the same name. The child class's implementation will be used instead of the parent class's implementation when the method is called on an object of the child class.
+
+```php
+class ParentClass {
+  public function exampleMethod() {
+    echo "This is the parent class method.";
+  }
+}
+
+class ChildClass extends ParentClass {
+  public function exampleMethod() {
+    echo "This is the child class method, overriding the parent class method.";
+  }
+}
+
+$child = new ChildClass();
+$child->exampleMethod(); // Outputs: "This is the child class method, overriding the parent class method."
+```
+
+**2. Calling parent class methods**: If you want to call a parent class method from within a child class while also having an overridden method, you can use the `parent` keyword followed by the scope resolution operator `::`.
+
+```php
+class ParentClass {
+  public function exampleMethod() {
+    echo "This is the parent class method.";
+  }
+}
+
+class ChildClass extends ParentClass {
+  public function exampleMethod() {
+    parent::exampleMethod(); // Call the parent class's method
+    echo " This is the child class method.";
+  }
+}
+
+$child = new ChildClass();
+$child->exampleMethod(); // Outputs: "This is the parent class method. This is the child class method."
+```
+**3. Abstract classes**: Abstract classes are classes that cannot be instantiated on their own and serve as a blueprint for other classes. They can have abstract methods that must be implemented by any non-abstract child class that extends the abstract class. Abstract classes are declared with the abstract keyword.
+
+``` php
+abstract class AbstractClass {
+  abstract public function abstractMethod();
+}
+
+class Concrete
+Class extends AbstractClass {
+public function abstractMethod() {
+echo "This is the concrete implementation of the abstract method.";
+}
+}
+
+// $abstractInstance = new AbstractClass(); // Not allowed, results in an error
+$concreteInstance = new ConcreteClass();
+$concreteInstance->abstractMethod(); // Outputs: "This is the concrete implementation of the abstract method."
+```
+
+ **4. Interfaces**: Interfaces are similar to abstract classes in that they cannot be instantiated, but they only contain method signatures without any implementation. A class can implement multiple interfaces, whereas it can only extend a single parent class. Interfaces are declared with the `interface` keyword, and a class implements an interface using the `implements` keyword.
+
+```php
+interface ExampleInterface {
+  public function exampleMethod();
+}
+
+class ImplementingClass implements ExampleInterface {
+  public function exampleMethod() {
+    echo "This is the implementation of the exampleMethod in ImplementingClass.";
+  }
+}
+
+$implementingInstance = new ImplementingClass();
+$implementingInstance->exampleMethod(); // Outputs: "This is the implementation of the exampleMethod in ImplementingClass."
+```
+
+In conclusion, inheritance in PHP allows you to create a hierarchical structure of classes that share properties and methods, promoting code reusability and modularity. You can extend parent classes, override and call parent methods, use abstract classes as blueprints, and implement interfaces to define a set of methods a class must have.
 
