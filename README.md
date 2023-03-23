@@ -1568,7 +1568,7 @@ In the example above, `ChildClass` inherits from `ParentClass`. The child class 
 
 Additionally, PHP supports the following concepts in inheritance:
 
-**1. Overriding**: Child classes can override parent class methods by declaring a method with the same name. The child class's implementation will be used instead of the parent class's implementation when the method is called on an object of the child class.
+**🧶 1. Overriding**: Child classes can override parent class methods by declaring a method with the same name. The child class's implementation will be used instead of the parent class's implementation when the method is called on an object of the child class.
 
 ```php
 class ParentClass {
@@ -1587,7 +1587,7 @@ $child = new ChildClass();
 $child->exampleMethod(); // Outputs: "This is the child class method, overriding the parent class method."
 ```
 
-**2. Calling parent class methods**: If you want to call a parent class method from within a child class while also having an overridden method, you can use the `parent` keyword followed by the scope resolution operator `::`.
+**🧶 2. Calling parent class methods**: If you want to call a parent class method from within a child class while also having an overridden method, you can use the `parent` keyword followed by the scope resolution operator `::`.
 
 ```php
 class ParentClass {
@@ -1606,7 +1606,7 @@ class ChildClass extends ParentClass {
 $child = new ChildClass();
 $child->exampleMethod(); // Outputs: "This is the parent class method. This is the child class method."
 ```
-**3. Abstract classes**: Abstract classes are classes that cannot be instantiated on their own and serve as a blueprint for other classes. They can have abstract methods that must be implemented by any non-abstract child class that extends the abstract class. Abstract classes are declared with the abstract keyword.
+**🧶 3. Abstract classes**: Abstract classes are classes that cannot be instantiated on their own and serve as a blueprint for other classes. They can have abstract methods that must be implemented by any non-abstract child class that extends the abstract class. Abstract classes are declared with the abstract keyword.
 
 ``` php
 abstract class AbstractClass {
@@ -1625,7 +1625,7 @@ $concreteInstance = new ConcreteClass();
 $concreteInstance->abstractMethod(); // Outputs: "This is the concrete implementation of the abstract method."
 ```
 
- **4. Interfaces**: Interfaces are similar to abstract classes in that they cannot be instantiated, but they only contain method signatures without any implementation. A class can implement multiple interfaces, whereas it can only extend a single parent class. Interfaces are declared with the `interface` keyword, and a class implements an interface using the `implements` keyword.
+ **🧶 4. Interfaces**: Interfaces are similar to abstract classes in that they cannot be instantiated, but they only contain method signatures without any implementation. A class can implement multiple interfaces, whereas it can only extend a single parent class. Interfaces are declared with the `interface` keyword, and a class implements an interface using the `implements` keyword.
 
 ```php
 interface ExampleInterface {
