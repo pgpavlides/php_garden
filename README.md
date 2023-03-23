@@ -1644,3 +1644,96 @@ $implementingInstance->exampleMethod(); // Outputs: "This is the implementation 
 
 In conclusion, inheritance in PHP allows you to create a hierarchical structure of classes that share properties and methods, promoting code reusability and modularity. You can extend parent classes, override and call parent methods, use abstract classes as blueprints, and implement interfaces to define a set of methods a class must have.
 
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 8.4 Interfaces 🔰
+
+Interfaces in PHP are a powerful feature that allows you to define a contract or blueprint for classes to follow. They enforce a specific structure by specifying method signatures without providing the implementation. Interfaces are useful when you want to ensure that multiple classes share the same set of methods, which is particularly helpful for designing a consistent API or implementing a plugin system.
+
+Here's an overview of interfaces in PHP:
+
+#### 👉 Declaration: 
+Interfaces are declared using the `interface` keyword. They can contain method signatures and constants but cannot have properties or method implementations.
+
+```php
+interface ExampleInterface {
+    const CONSTANT_VALUE = "Some constant value";
+
+    public function method1();
+    public function method2($param1, $param2);
+}
+```
+
+#### 👉 Implementation: 
+Classes can implement interfaces using the `implements` keyword. A class that implements an interface must provide an implementation for all the methods defined in the interface.
+
+```php
+class ExampleClass implements ExampleInterface {
+    public function method1() {
+        // Implementation of method1
+    }
+
+    public function method2($param1, $param2) {
+        // Implementation of method2
+    }
+}
+```
+
+#### 👉 Multiple interfaces: 
+A class can implement multiple interfaces by separating them with commas.
+
+```php
+interface AnotherInterface {
+    public function method3();
+}
+
+class ExampleClass implements ExampleInterface, AnotherInterface {
+    // Implementations for methods from both interfaces
+}
+
+```
+
+#### 👉 Inheritance: 
+Interfaces can also extend other interfaces using the `extends` keyword, which allows them to inherit method signatures from parent interfaces.
+
+```php
+interface ParentInterface {
+    public function parentMethod();
+    }
+
+interface ChildInterface extends ParentInterface {
+public function childMethod();
+}
+
+class ExampleClass implements ChildInterface {
+public function parentMethod() {
+// Implementation of parentMethod from ParentInterface
+}
+public function childMethod() {
+    // Implementation of childMethod from ChildInterface
+}
+}
+```
+
+In the example above, the `ChildInterface` extends the `ParentInterface`, and the `ExampleClass` implements the `ChildInterface`. As a result, the `ExampleClass` is required to provide implementations for both `parentMethod()` and `childMethod()`.
+
+#### 👉 Type hinting and return types:
+You can use interfaces as type hints in function or method parameters and as return types to ensure that a specific object passed to a function or returned by a method implements the required interface.
+
+
+```php
+function processExampleInterface(ExampleInterface $example) {
+    $example->method1();
+}
+
+class AnotherClass {
+    public function processAndReturnExampleInterface(ExampleInterface $example): ExampleInterface {
+        $example->method1();
+        return $example;
+    }
+}
+```
+
+
