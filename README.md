@@ -481,7 +481,7 @@ It's a good practice to define constants in uppercase letters, to distinguish th
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 4.1 Conditionals (if, else, elseif)
+### 4.1 Conditionals (if, else, elseif) 🔰
 
 In PHP, you can use conditionals to execute different blocks of code based on the value of one or more expressions. The most commonly used conditional statements are **if**, **else**, and **elseif**.
 
@@ -558,7 +558,7 @@ It's important to note that only one block of code will be executed for each set
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 4.2 Switch Statements
+### 4.2 Switch Statements 🔰
 
 
 
@@ -609,11 +609,11 @@ It's important to note that the break statement is used to exit the switch state
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 4.3 Loops (for, while, do-while, foreach)
+### 4.3 Loops (for, while, do-while, foreach) 🔰
 
 In PHP, loops are used to execute a block of code repeatedly until a specified condition is met. There are four main types of loops in PHP: for, while, do-while, and foreach. Here's a brief overview of each loop along with an example:
 
-- **For loop**:
+#### 👉 For loop:
 The for loop is used when you know how many times you want to execute the loop. It has three parts: an initialization expression, a condition, and an increment/decrement expression.
 
 Example:
@@ -626,7 +626,7 @@ for ($i = 0; $i < 5; $i++) {
 
 ```
 
-- **While loop**:
+#### 👉 While loop:
 The while loop executes a block of code as long as a given condition is true. If the condition is false initially, the loop body will not be executed.
 
 Example:
@@ -640,7 +640,7 @@ while ($count < 5) {
 
 ```
 
-- **Do-while loop**:
+#### 👉 Do-while loop:
 The do-while loop is similar to the while loop, but the loop body is executed at least once, because the condition is checked after the loop body is executed.
 
 Example:
@@ -653,7 +653,7 @@ do {
 } while ($count < 5);
 ```
 
-- **Foreach loop**:
+#### 👉 Foreach loop:
 The foreach loop is used to iterate through arrays or objects. It is particularly useful when working with associative arrays, as it provides an easy way to access both keys and values.
 
 Example:
@@ -678,7 +678,7 @@ In this example, the foreach loop iterates through the $array and assigns the ke
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 5.1 Defining Functions
+### 5.1 Defining Functions 🔰
 
 In PHP, a function is a block of code that can be executed multiple times, and can accept input in the form of parameters, and return output in the form of a return value. Functions are useful for encapsulating and reusing code, and for organizing and simplifying complex scripts.
 
@@ -722,7 +722,7 @@ $result = square(5); // $result will be 25
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 5.2 Function Arguments
+### 5.2 Function Arguments 🔰
 
 Function arguments are a fundamental aspect of functions in PHP, as they allow functions to accept input and operate on that input in order to produce output. Understanding function arguments is essential to writing effective and reusable functions in PHP.
 
@@ -788,7 +788,7 @@ In summary, **function arguments** provide a way for functions to accept **input
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 5.3 Return Values
+### 5.3 Return Values 🔰
 
 In PHP, the return statement is used to specify the value that should be returned by a function. The return statement is used to return a value from a function to the calling code, and can be used anywhere within the function.
 
@@ -826,7 +826,7 @@ In this example, the do_something function does not have a return statement, and
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 5.4 Anonymous functions and closures
+### 5.4 Anonymous functions and closures 🔰
 
 In PHP, anonymous functions, also known as **closures**, are functions that are not bound to an identifier. Anonymous functions are typically used as function arguments, and can be created using the function keyword, followed by a list of parameters in parentheses, and a block of code inside curly braces.
 
@@ -865,7 +865,7 @@ Closures are a powerful feature of PHP, and are used extensively in functional p
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 5.5 Built-in functions
+### 5.5 Built-in functions 🔰
 
 There are many built-in functions in PHP, and the exact list of functions depends on the version of PHP you are using. Here is a comprehensive but not exhaustive list of some of the most commonly used built-in functions in PHP:
 
@@ -909,7 +909,7 @@ This list is not exhaustive, and there are many other built-in functions in PHP 
 
 
 
-### 6.1 Indexed Arrays
+### 6.1 Indexed Arrays 🔰
 
 Indexed arrays in PHP are arrays with numeric indexes, starting from 0. They can store values in a sequential manner, making them suitable for lists or collections of similar items. To create an indexed array, you can either use the array() function or the short array syntax []. Here's an example of how to create, manipulate, and loop through an indexed array in PHP:
 
@@ -951,7 +951,7 @@ In this example, we create two indexed arrays: `$fruits` and `$colors`. We demon
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 6.2 Associative Arrays
+### 6.2 Associative Arrays 🔰
 
 In PHP, associative arrays are implemented using arrays. Unlike indexed arrays, which use numerical indices, associative arrays use string keys to map to their corresponding values. You can create an associative array using the array() construct or the short syntax []. Here are some examples of associative arrays in PHP:
 
@@ -1019,7 +1019,7 @@ These examples demonstrate how to create, add, access, iterate, and check for th
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 6.3 Multidimensional Arrays
+### 6.3 Multidimensional Arrays 🔰
 
 Multidimensional arrays in PHP are arrays that contain other arrays as their elements. These nested arrays can be indexed or associative, and can be used to represent complex data structures like tables or matrices. Multidimensional arrays can have multiple levels of depth, but the most common type is the two-dimensional array.
 
@@ -1095,7 +1095,7 @@ These examples demonstrate how to create, access, and iterate through multidimen
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 6.4 Array Functions
+### 6.4 Array Functions 🔰
 
 PHP provides a wide range of built-in array functions for various operations on arrays. Here's a list of some of the most common array functions in PHP:
 
@@ -1140,11 +1140,12 @@ These are just a few examples of the array functions available in PHP. You can f
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 7.1 String basics
+### 7.1 String basics 🔰
 
 In PHP, strings are sequences of characters used to represent text. They can be created using either single quotes (') or double quotes ("), and they have some important differences in how they are interpreted:
 
-- **Single-quoted strings**: These strings are interpreted literally, meaning that any escape sequences (except for \' and \\) will not be processed. Variables inside single-quoted strings will not be expanded.
+#### 👉 Single-quoted strings: 
+These strings are interpreted literally, meaning that any escape sequences (except for \' and \\) will not be processed. Variables inside single-quoted strings will not be expanded.
 
 ```php
 $string1 = 'Hello, my name is $name.';
@@ -1152,7 +1153,8 @@ echo $string1; // Output: Hello, my name is $name.
 
 ```
 
-- **Double-quoted strings**: These strings are more flexible, as they can interpret escape sequences (like \n for newline or \t for tab) and expand variables within the string.
+#### 👉 Double-quoted strings:
+These strings are more flexible, as they can interpret escape sequences (like \n for newline or \t for tab) and expand variables within the string.
 
 ```php
 $name = 'Alice';
@@ -1162,7 +1164,8 @@ echo $string2; // Output: Hello, my name is Alice.
 
 You can also create strings using the heredoc and nowdoc syntax, which are useful for defining multi-line strings:
 
-- **Heredoc**: Similar to double-quoted strings, heredoc syntax supports escape sequences and variable interpolation.
+#### 👉 Heredoc: 
+Similar to double-quoted strings, heredoc syntax supports escape sequences and variable interpolation.
 
 ```php
 $string3 = <<<EOT
@@ -1173,7 +1176,8 @@ EOT;
 echo $string3;
 ```
 
-- **Nowdoc**: Similar to single-quoted strings, nowdoc syntax does not process escape sequences or variables.
+#### 👉 Nowdoc:
+Similar to single-quoted strings, nowdoc syntax does not process escape sequences or variables.
 
 String manipulation and functions are an essential part of PHP programming. Some common string functions include:
 
@@ -1209,7 +1213,7 @@ These are some of the basics of strings in PHP, including how to create, manipul
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 7.2 String manipulation
+### 7.2 String manipulation 🔰
 
 
 
@@ -1223,7 +1227,7 @@ These are some of the basics of strings in PHP, including how to create, manipul
 | strtoupper($string)       | Converts a string to uppercase.                                | `echo strtoupper("Hello, World!"); // Output: "HELLO, WORLD!"` |
 | trim($string)             | Strips whitespace (or other characters) from the beginning and end of a string. | `echo trim("   Hello, World!   "); // Output: "Hello, World!"` |
 
-### 7.3 Regular expressions
+### 7.3 Regular expressions 🔰
 
 Regular expressions, often abbreviated as regex, are a powerful tool for pattern matching and manipulation of strings in PHP. They allow you to perform complex searches, validate input, replace substrings, and much more.
 
@@ -1300,7 +1304,8 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses objects an
 
 Here are some key OOP concepts in PHP:
 
-- **Classes**: A class is a blueprint for creating objects (a particular data structure). It defines properties (attributes) and methods (functions) that are common to all objects of that class.
+#### 👉 Classes:
+A class is a blueprint for creating objects (a particular data structure). It defines properties (attributes) and methods (functions) that are common to all objects of that class.
 
 ```php
 class Person {
@@ -1313,7 +1318,8 @@ class Person {
 }
 ```
 
-- **Objects**: An object is an instance of a class. It has its own set of properties and methods defined by its class.
+#### 👉 Objects: 
+An object is an instance of a class. It has its own set of properties and methods defined by its class.
 
 ```php
 $alice = new Person();
@@ -1324,7 +1330,8 @@ echo $alice->greet(); // Output: "Hello, my name is Alice and I am 30 years old.
 
 ```
 
-- **Encapsulation**: Encapsulation is the process of bundling data (properties) and methods that operate on the data within a single unit (class). It is used to hide the internal implementation details and expose only what is necessary.
+#### 👉 Encapsulation:
+Encapsulation is the process of bundling data (properties) and methods that operate on the data within a single unit (class). It is used to hide the internal implementation details and expose only what is necessary.
 
 ```php
 class BankAccount {
@@ -1352,7 +1359,8 @@ class BankAccount {
 }
 ```
 
-- **Inheritance**: Inheritance is a mechanism that allows one class to inherit properties and methods from another class. The class that inherits is called the subclass (or derived class), and the class being inherited from is called the superclass (or base class).
+#### 👉 Inheritance: 
+Inheritance is a mechanism that allows one class to inherit properties and methods from another class. The class that inherits is called the subclass (or derived class), and the class being inherited from is called the superclass (or base class).
 
 ```php
 class Employee extends Person {
@@ -1371,7 +1379,8 @@ $bob->position = 'developer';
 echo $bob->greet(); // Output: "Hello, my name is Bob and I am 25 years old. I work as a developer."
 ```
 
-- **Polymorphism**: Polymorphism is the ability of different classes to implement the same interface or extend the same base class while providing their own implementation for the inherited methods.
+#### 👉 Polymorphism: 
+Polymorphism is the ability of different classes to implement the same interface or extend the same base class while providing their own implementation for the inherited methods.
 
 ```php
 interface Shape {
@@ -1411,11 +1420,12 @@ These concepts form the basis of OOP in PHP. Using OOP can help you create struc
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 8.1 Classes and Objects
+### 8.1 Classes and Objects 🔰
 
 In PHP, classes and objects are fundamental concepts of Object-Oriented Programming (OOP). They allow you to create modular, reusable, and maintainable code.
 
-**Classes**: A class is a blueprint or template for creating objects, which are instances of the class. It defines properties (attributes) and methods (functions) that are common to all objects of that class.
+#### 👉 Classes
+A class is a blueprint or template for creating objects, which are instances of the class. It defines properties (attributes) and methods (functions) that are common to all objects of that class.
 
 Here's an example of a class in PHP:
 
@@ -1432,7 +1442,8 @@ class Person {
 
 In this example, `Person` is a class with two properties (`$name` and `$age`) and one method (`greet()`). The `public` keyword indicates the visibility of the properties and method, meaning they can be accessed from outside the class.
 
-**Objects**: An object is an individual instance of a class, created using the `new` keyword. An object has its own set of properties and methods defined by its class.
+#### 👉 Objects
+An object is an individual instance of a class, created using the `new` keyword. An object has its own set of properties and methods defined by its class.
 
 Here's an example of creating an object and using its properties and methods:
 
@@ -1453,13 +1464,15 @@ In summary, classes and objects are the building blocks of OOP in PHP. Classes d
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 8.2 Properties and methods
+### 8.2 Properties and methods 🔰
 
 In the context of Object-Oriented Programming (OOP), classes are blueprints for creating objects. Classes can have properties and methods, which define the state and behavior of the objects created from those classes.
 
-**Properties** (also known as attributes or fields) represent the state or data of an object. They store values that are specific to each object created from a class. Properties can have different visibility levels (public, protected, and private) that determine the scope of access for that property.
+#### 👉 Properties 
+(also known as attributes or fields) represent the state or data of an object. They store values that are specific to each object created from a class. Properties can have different visibility levels (public, protected, and private) that determine the scope of access for that property.
 
-**Methods** (also known as functions) represent the behavior or actions of an object. They are used to manipulate the object's properties or perform some operation on the object's data. Like properties, methods can also have different visibility levels (public, protected, and private).
+#### 👉 Methods
+(also known as functions) represent the behavior or actions of an object. They are used to manipulate the object's properties or perform some operation on the object's data. Like properties, methods can also have different visibility levels (public, protected, and private).
 
 Here's an example of a simple class in PHP with properties and methods:
 
@@ -1521,15 +1534,17 @@ In summary, properties and methods are essential parts of classes in OOP. They d
 </p>
 
 
-### 8.3 Inheritance
+### 8.3 Inheritance 🔰
 
 Inheritance is a fundamental concept in object-oriented programming (OOP) that allows you to create a new class, called a child class, that inherits properties and methods from an existing class, known as the parent class. This promotes code reusability and modularity, making it easier to maintain and extend the functionality of a program. PHP, being an OOP language, supports inheritance.
 
 Here's a brief overview of inheritance in PHP:
 
-**1. Parent class**: The parent class is the original class that you want to inherit from. It can have properties (variables) and methods (functions) that the child class can access and use.
+#### 👉 1. Parent class: 
+The parent class is the original class that you want to inherit from. It can have properties (variables) and methods (functions) that the child class can access and use.
 
-**2. Child class**: The child class is the new class that inherits from the parent class. It can access the parent class's properties and methods (except private ones), and it can also have its own properties and methods.
+#### 👉 2. Child class: 
+The child class is the new class that inherits from the parent class. It can access the parent class's properties and methods (except private ones), and it can also have its own properties and methods.
 
 To create a child class that inherits from a parent class in PHP, you can use the extends keyword:
 
