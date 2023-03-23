@@ -1736,4 +1736,13 @@ class AnotherClass {
 }
 ```
 
+In summary, interfaces in PHP provide a way to define a contract that classes must adhere to by implementing the required methods. They help ensure consistency across different classes, facilitate code reusability, and improve the overall design and architecture of your application.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+
+### 8.5 Traits 🔰
+
 
