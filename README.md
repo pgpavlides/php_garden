@@ -1643,3 +1643,4 @@ $implementingInstance->exampleMethod(); // Outputs: "This is the implementation 
 ```
 
 In conclusion, inheritance in PHP allows you to create a hierarchical structure of classes that share properties and methods, promoting code reusability and modularity. You can extend parent classes, override and call parent methods, use abstract classes as blueprints, and implement interfaces to define a set of methods a class must have.
+
