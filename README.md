@@ -179,31 +179,31 @@ PHP is a widely used server-side scripting language that has both advantages and
 
 ## Advantages ✅
 
-<details><summary>1.Open-Source</summary>
+<details><summary>1.Open-Source 🟢</summary>
 
 <br> PHP is an open-source language, which means that it is free to use and can be modified by anyone. This has led to a large and active community of developers who contribute to its development and support.
 
 </details>
 
-<details><summary>2.Easy to Learn</summary>
+<details><summary>2.Easy to Learn 🟢</summary>
 
 <br> PHP is known for its simple syntax and ease of use, making it a popular choice for beginners who want to learn a server-side scripting language.
 
 </details>
 
-<details><summary>3.Widely Supported</summary>
+<details><summary>3.Widely Supported 🟢</summary>
 
 <br> PHP is supported by a variety of platforms and servers, including Apache, IIS, and others, which makes it a versatile language that can be used to build a wide range of websites and applications.
 
 </details>
 
-<details><summary>4.Large Community</summary>
+<details><summary>4.Large Community 🟢</summary>
 
 <br> With millions of websites using PHP, there is a large and active community of developers who can provide support and resources for learning and problem-solving.
 
 </details>
 
-<details><summary>5.Integration with Other Technologies</summary>
+<details><summary>5.Integration with Other Technologies 🟢</summary>
 
 <br> PHP can be easily integrated with other technologies, such as databases (MySQL, PostgreSQL, etc.), HTML, CSS, and JavaScript, making it a powerful tool for building dynamic and interactive web applications.
 
@@ -211,32 +211,32 @@ PHP is a widely used server-side scripting language that has both advantages and
 
 ## Disadvantages ❌
 
-<details><summary>1.Performance</summary>
+<details><summary>1.Performance 🔴</summary>
 
 <br> While PHP has improved in terms of performance in recent years, it is still not as fast as other languages, such as Node.js, which can be a problem for large and complex applications.
 
 </details>
 
-<details><summary>2.Security</summary>
+<details><summary>2.Security 🔴</summary>
 
 <br> PHP has a history of security vulnerabilities, and it is important to keep up-to-date with security patches and follow best practices to prevent hacking and other security breaches.
 
 </details>
 
-<details><summary>3.Limited Mobile Support</summary>
+<details><summary>3.Limited Mobile Support 🔴</summary>
 
 <br> PHP is primarily used for server-side scripting, and it is not well-suited for building mobile applications. Other technologies, such as Swift for iOS or Java for Android, are better suited for mobile development.
 
 </details>
 
-<details><summary>4.Inconsistent Functionality</summary>
+<details><summary>4.Inconsistent Functionality 🔴</summary>
 
 <br> Due to its open-source nature, PHP has a lot of inconsistent functionality, and some functions may behave differently on different servers or platforms, which can lead to compatibility issues.
 
 </details>
 
-<details><summary>5.Steep Learning Curve</summary>
-
+<details><summary>5.Steep Learning Curve 🔴</summary>
+ 
 <br> While PHP is easy to learn for beginners, it can have a steep learning curve for more advanced topics, such as object-oriented programming and security.
 
 </details>
@@ -245,7 +245,7 @@ PHP is a widely used server-side scripting language that has both advantages and
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 1.4 Who should read this repo? 
+### 1.4 Who should read this repo? 🎭
 
 This repository is designed for anyone who is interested in learning PHP, from beginners to more advanced developers. Whether you're just starting out in web development or are looking to expand your skill set, this repository is a valuable resource that will help you gain a deeper understanding of PHP programming. Whether you want to build dynamic and interactive websites, create e-commerce sites, or develop content management systems, this repository will provide you with the knowledge and tools you need to succeed. So if you're ready to learn PHP and become a skilled programmer, this repository is for you!
 
@@ -253,7 +253,7 @@ This repository is designed for anyone who is interested in learning PHP, from b
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
-# 2.Getting Started with PHP 
+# 2.Getting Started with PHP 🛣
 
 ### 2.1 Installing PHP - XAMPP
 
@@ -266,13 +266,13 @@ This repository is designed for anyone who is interested in learning PHP, from b
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
-# 3 Variables and Data Types
+# 3 Variables and Data Types 📗
 
 <p align="center">
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 3.1 Variables
+### 3.1 Variables 🔰
 
 All variables in PHP must be declared with a **leading dollar sign ($)**. For example, a string variable named "message" would be declared as follows:
 
@@ -286,7 +286,10 @@ It's important to note that in PHP, variables are **dynamically typed**, which m
 
 
 
-- **Scalar variables**: These are variables that can hold a single value, such as an integer, float, string, or boolean.
+#### 👉 Scalar variables:
+
+These are variables that can hold a single value, such as an integer, float, string, or boolean.
+
 
 ```php
 $integer = 42;
@@ -295,14 +298,16 @@ $string = "Hello, world!";
 $boolean = true;
 ```
 
-- **Array variables**: These are variables that can hold multiple values, indexed either numerically or associatively.
+#### 👉 Array variables: 
+These are variables that can hold multiple values, indexed either numerically or associatively.
 
 ```php
 $numbers = array(1, 2, 3, 4, 5);
 $associative_array = array("one" => 1, "two" => 2, "three" => 3);
 ```
 
-- **Object variables**: These are variables that hold instances of classes, which can contain both data and behavior.
+#### 👉 Object variables: 
+These are variables that hold instances of classes, which can contain both data and behavior.
 
 ```php
 class Car {
@@ -317,14 +322,16 @@ $my_car->model = "Camry";
 $my_car->year = 2020;
 ```
 
-- **Resource variables**: These are special variables that hold references to resources external to PHP, such as database connections or file handles.
+#### 👉 Resource variables: 
+These are special variables that hold references to resources external to PHP, such as database connections or file handles.
 
 ```php
 $file = fopen("example.txt", "r");
 $database = mysqli_connect("localhost", "user", "password", "database");
 ```
 
-- **NULL variables**: These are variables that have no value assigned to them.
+#### 👉 NULL variables: 
+These are variables that have no value assigned to them.
 ```php
 $null_variable = null;
 ```
@@ -333,44 +340,50 @@ $null_variable = null;
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 3.2 Data types
+### 3.2 Data types 🔰
 
-- **Integers**: Represent whole numbers, such as 42 or -123.
+#### 👉 Integers: 
+Represent whole numbers, such as 42 or -123.
 
 ```php
 $a = 42;
 $b = -123;
 ```
 
-- **Floats**: Represent numbers with decimal places, such as 3.14 or -0.01.
+#### 👉 Floats: 
+Represent numbers with decimal places, such as 3.14 or -0.01.
 
 ```php
 $c = 3.14;
 $d = -0.01;
 ```
 
-- **Strings**: Represent sequences of characters, such as "Hello, world!" or "php".
+#### 👉 Strings: 
+Represent sequences of characters, such as "Hello, world!" or "php".
 ```php
 $e = "Hello, world!";
 $f = "php";
 ```
 
 
-- **Booleans**: Represent truth values, either true or false.
+#### 👉 Booleans: 
+Represent truth values, either true or false.
 
 ```php
 $g = true;
 $h = false;
 ```
 
-- **Arrays**: Represent ordered collections of values, either indexed by numbers (called numeric arrays) or by strings (called associative arrays).
+#### 👉 Arrays: 
+Represent ordered collections of values, either indexed by numbers (called numeric arrays) or by strings (called associative arrays).
 
 ```php
 $numbers = array(1, 2, 3, 4, 5);
 $associative_array = array("one" => 1, "two" => 2, "three" => 3);
 ```
 
-- **Objects**: Represent instances of classes, which can contain both data and behavior.
+#### 👉Objects: 
+Represent instances of classes, which can contain both data and behavior.
 
 ```php
 class Car {
@@ -385,14 +398,16 @@ $my_car->model = "Camry";
 $my_car->year = 2020;
 ```
 
-- **Resources**: Represent external resources, such as database connections or file handles.
+#### 👉 Resources:
+Represent external resources, such as database connections or file handles.
 
 ```php
 $file = fopen("example.txt", "r");
 $database = mysqli_connect("localhost", "user", "password", "database");
 ```
 
-- **NULL**: Represent the absence of a value.
+#### 👉 NULL: 
+Represent the absence of a value.
 
 ```php
 $null_variable = null;
@@ -402,7 +417,7 @@ $null_variable = null;
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 3.3 Type Casting
+### 3.3 Type Casting 🔰
 
 In PHP, type casting refers to the process of converting a value from one data type to another. This is sometimes necessary when working with values of different data types, such as when you need to perform arithmetic with a string that contains a number.
 
@@ -430,7 +445,7 @@ It's important to be mindful of the data types of values when performing type ca
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
 
-### 3.4 Constants
+### 3.4 Constants 🔰
 
 In PHP, constants are values that cannot be changed after they have been defined. Constants are typically used to represent values that don't change throughout the lifetime of a script, such as mathematical constants, configuration parameters, or error codes.
 
@@ -460,7 +475,7 @@ It's a good practice to define constants in uppercase letters, to distinguish th
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
-# 4. Control Structures
+# 4. Control Structures 📗
 
 <p align="center">
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
@@ -657,7 +672,7 @@ In this example, the foreach loop iterates through the $array and assigns the ke
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
-# 5. Functions
+# 5. Functions 📗
 
 <p align="center">
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
@@ -886,7 +901,7 @@ This list is not exhaustive, and there are many other built-in functions in PHP 
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
-# 6. Arrays
+# 6. Arrays 📗
 
 <p align="center">
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
@@ -1119,7 +1134,7 @@ These are just a few examples of the array functions available in PHP. You can f
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
-# 7. Strings
+# 7. Strings 📗
 
 <p align="center">
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
@@ -1275,7 +1290,7 @@ These functions are the most common tools for working with regular expressions i
 <img src="https://i.ibb.co/0jmYc1b/ivider-greenl.png" height="120px" width="100%" > 
 </p>
 
-# 8. Object-Oriented PHP
+# 8. Object-Oriented PHP 📗
 
 <p align="center">
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
