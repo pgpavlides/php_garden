@@ -2016,3 +2016,43 @@ In the example above, the GlobalClass is defined in the global namespace, while 
 <p align="center">
 <img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
 </p>
+
+### 9.1  Error Types 🔰
+
+In PHP, errors can be categorized into several types, each indicating a different level of severity. These errors help developers identify issues in their code and make the necessary corrections. Here are the main error types in PHP:
+
+- Parse Error (Syntax Error): These errors occur when there is a syntax mistake in the code, such as missing semicolons, mismatched parentheses, or incorrect function names. PHP will not execute the script if a parse error is encountered.
+
+- Fatal Error: These are critical errors that prevent the script from executing any further. Common examples of fatal errors include calling an undefined function, attempting to instantiate a non-existent class, or exhausting memory limits.
+
+- Warning: Warnings are non-fatal errors that do not stop script execution. They usually indicate potential issues with the code, such as attempting to include a non-existent file or using deprecated functions. While not as severe as fatal errors, warnings should be addressed to improve code quality and avoid future issues.
+
+- Notice: These are less severe than warnings and are meant to highlight potential issues in the code, such as using an uninitialized variable or accessing a non-existent array key. Notices do not stop the script from executing, but addressing them can help make the code more robust and easier to maintain.
+
+- Strict Standards: These are related to PHP's strict mode, which enforces cleaner and more reliable coding practices. Strict standards errors indicate that the code does not adhere to best practices or might cause issues in future PHP versions. Strict mode can be enabled by setting the 'E_STRICT' error reporting level.
+
+- Deprecated: These errors indicate that a feature or function used in the code is no longer recommended and will likely be removed in future PHP versions. To maintain compatibility and improve the code, developers should replace deprecated elements with their recommended alternatives.
+
+To handle and report these errors, PHP provides an error reporting mechanism that can be configured using the `error_reporting()` function or the `error_reporting` directive in the php.ini file. This allows developers to control the level of error reporting to suit their needs and environment.
+
+<p align="center">
+<img src="https://i.ibb.co/8nwm1gq/Divider.png" width="100%" > 
+</p>
+
+### 9.2  Error Handling 🔰
+
+Error handling in PHP is an essential aspect of programming that helps developers identify, diagnose, and fix issues in their code. PHP provides several ways to handle errors, ranging from simple to more advanced techniques. Here are some of the most common methods for error handling in PHP:
+
+- Error reporting: PHP allows developers to configure the error reporting level using the `error_reporting()` function or the `error_reporting` directive in the php.ini file. This determines which types of errors will be displayed or logged. For example, you can choose to display all errors, only warnings and fatal errors, or none at all.
+
+- Display errors: The `display_errors` directive in the php.ini file controls whether errors should be displayed on the screen or not. This is useful for development environments, where seeing errors in real-time is helpful. In production environments, it's generally recommended to disable the display of errors to avoid revealing sensitive information to users.
+
+- Log errors: The `log_errors` directive in the php.ini file allows you to log errors to a file or a system logger, which can be useful for diagnosing issues without displaying them on the screen. The `error_log` directive specifies the log file's location.
+
+- Custom error handlers: PHP allows developers to create custom error handlers using the `set_error_handler()` function. A custom error handler is a user-defined function that takes over error handling, allowing you to process errors in a specific way. This can include logging errors, sending notifications, or even recovering from specific errors if possible.
+
+- Exception handling: PHP 5 introduced exception handling, which provides a more modern and object-oriented approach to error handling. Instead of relying on error codes, developers can use `try`, `catch`, and `finally` blocks to handle exceptions. When an exception is thrown, the code in the corresponding `catch` block is executed, allowing you to handle the error gracefully and prevent script termination.
+
+- Error handling with the Error class: As of PHP 7, several traditional error types (e.g., fatal errors and warnings) are now treated as exceptions, which are part of the new `Error` class hierarchy. This means you can use exception handling techniques with these error types as well.
+
+To effectively handle errors in PHP, it's crucial to strike a balance between providing useful information to developers for debugging purposes and not revealing sensitive information to end-users. By leveraging the various error handling techniques provided by PHP, developers can create more robust and reliable applications.
